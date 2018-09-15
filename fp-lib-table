@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name arduinouno)(type KiCad)(uri ${KIPRJMOD}/arduinouno.pretty)(options "")(descr ""))
+)

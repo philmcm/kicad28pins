@@ -1,0 +1,3183 @@
+EESchema Schematic File Version 4
+LIBS:arduinouno-cache
+EELAYER 26 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "28 Pins Project (Arduino Uno)"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduinouno:ATMEGA328P-PU U3
+U 1 1 5B8FB8F7
+P 13100 10300
+F 0 "U3" H 12050 11400 50  0000 C CNN
+F 1 "ATMEGA328P-PU" H 13900 9100 50  0000 C CNN
+F 2 "arduinouno:28PIN_PDIP_7.62mm" H 12100 11350 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589967" H 13100 8950 50  0001 C CNN
+F 4 "ATMEGA328P-PU-ND" H 12000 8850 50  0001 C CNN "Digikey"
+	1    13100 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:M20-7821046 J5
+U 1 1 5B927A12
+P 18250 9150
+F 0 "J5" H 18250 8600 50  0000 C CNN
+F 1 "M20-7821046" H 18168 8576 50  0001 C CNN
+F 2 "arduinouno:10P_Header_Female_2.54mm" H 18200 9600 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-782.pdf" H 18300 8500 50  0001 C CNN
+F 4 "952-1847-ND" H 18300 8400 50  0001 C CNN "Digikey"
+	1    18250 9150
+	1    0    0    1   
+$EndComp
+$Comp
+L arduinouno:M20-7820842 J7
+U 1 1 5B927EA2
+P 18250 11300
+F 0 "J7" H 18250 10850 50  0000 C CNN
+F 1 "M20-7820842" H 18250 11750 50  0001 C CNN
+F 2 "arduinouno:8P_Header_Female_2.54mm" H 18200 10750 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-782.pdf" H 18200 10650 50  0001 C CNN
+F 4 "952-1823-ND" H 18200 10750 50  0001 C CNN "Digikey"
+	1    18250 11300
+	1    0    0    1   
+$EndComp
+$Comp
+L arduinouno:M20-7820646 J6
+U 1 1 5B928126
+P 18250 10250
+F 0 "J6" H 18250 9900 50  0000 C CNN
+F 1 "M20-7820646" H 18250 10600 50  0001 C CNN
+F 2 "arduinouno:6P_Header_Female_2.54mm" H 18200 10550 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-782.pdf" H 18250 9800 50  0001 C CNN
+F 4 "952-1809-ND" H 18250 9700 50  0001 C CNN "Digikey"
+	1    18250 10250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14400 10500 18000 10500
+Wire Wire Line
+	14400 10400 18000 10400
+Wire Wire Line
+	14400 10300 18000 10300
+Wire Wire Line
+	14400 10200 18000 10200
+Wire Wire Line
+	14400 10100 16950 10100
+Wire Wire Line
+	18000 10000 16850 10000
+Wire Wire Line
+	14400 11400 15000 11400
+Wire Wire Line
+	15000 11400 15000 11650
+Wire Wire Line
+	15000 11650 16400 11650
+Wire Wire Line
+	18000 11550 16300 11550
+Wire Wire Line
+	15100 11550 15100 11300
+Wire Wire Line
+	15100 11300 14400 11300
+Wire Wire Line
+	14400 11200 15200 11200
+Wire Wire Line
+	15200 11200 15200 11450
+Wire Wire Line
+	15200 11450 18000 11450
+Wire Wire Line
+	18000 11350 15300 11350
+Wire Wire Line
+	15300 11350 15300 11100
+Wire Wire Line
+	15300 11100 14400 11100
+Wire Wire Line
+	14400 11000 15400 11000
+Wire Wire Line
+	15400 11000 15400 11250
+Wire Wire Line
+	15400 11250 18000 11250
+Wire Wire Line
+	18000 11150 15500 11150
+Wire Wire Line
+	15500 10900 14400 10900
+Wire Wire Line
+	15500 10900 15500 11150
+Wire Wire Line
+	14400 10800 15600 10800
+Wire Wire Line
+	15600 10800 15600 11050
+Wire Wire Line
+	15600 11050 18000 11050
+Wire Wire Line
+	18000 10950 15700 10950
+Wire Wire Line
+	15700 10950 15700 10700
+Wire Wire Line
+	15700 10700 14400 10700
+Wire Wire Line
+	14400 9800 17950 9800
+Wire Wire Line
+	17950 9800 17950 9600
+Wire Wire Line
+	17950 9600 18000 9600
+Wire Wire Line
+	18000 9500 17850 9500
+Wire Wire Line
+	17850 9500 17850 9700
+Wire Wire Line
+	17850 9700 14400 9700
+Wire Wire Line
+	14400 9600 17750 9600
+Wire Wire Line
+	17750 9600 17750 9400
+Wire Wire Line
+	17750 9400 18000 9400
+Wire Wire Line
+	18000 9300 17650 9300
+Wire Wire Line
+	17650 9300 17650 9500
+Wire Wire Line
+	17650 9500 17050 9500
+Wire Wire Line
+	14400 9400 17150 9400
+Wire Wire Line
+	17550 9400 17550 9200
+Wire Wire Line
+	17550 9200 18000 9200
+Wire Wire Line
+	11800 9300 11800 8700
+$Comp
+L arduinouno:C2012X7R1H104K085AA C18
+U 1 1 5B93CA33
+P 10900 8900
+F 0 "C18" V 10800 8900 50  0000 L CNN
+F 1 "100nF" V 11000 8900 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 10900 8950 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11050 8650 50  0001 C CNN
+F 4 "445-7534-1-ND" H 10900 8550 50  0001 C CNN "Digikey"
+	1    10900 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:C2012X5R1C106M085AC C13
+U 1 1 5B93CB27
+P 10350 8900
+F 0 "C13" V 10250 8900 50  0000 L CNN
+F 1 "10uF|16V" V 10450 8900 50  0000 L CNN
+F 2 "arduinouno:C0805x145mm" H 10350 8950 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 10500 8650 50  0001 C CNN
+F 4 "445-7645-1-ND" H 10350 8550 50  0001 C CNN "Digikey"
+	1    10350 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:MPZ2012S601AT000 FB2
+U 1 1 5B93F4D5
+P 9900 8700
+F 0 "FB2" H 9900 8800 50  0000 C CNN
+F 1 "MPZ2012S601AT000" H 9850 8600 50  0001 C CNN
+F 2 "arduinouno:FB0805x85mm" H 9800 8500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 9950 8500 50  0001 C CNN
+F 4 "445-7645-1-ND" H 9900 8400 50  0001 C CNN "Digikey"
+	1    9900 8700
+	1    0    0    -1  
+$EndComp
+Connection ~ 10900 8700
+Wire Wire Line
+	11700 9500 11700 9250
+$Comp
+L arduinouno:C2012X7R1H104K085AA C19
+U 1 1 5B945E0D
+P 10900 9450
+F 0 "C19" V 10800 9450 50  0000 L CNN
+F 1 "100nF" V 11000 9450 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 10900 9500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11050 9200 50  0001 C CNN
+F 4 "445-7534-1-ND" H 10900 9100 50  0001 C CNN "Digikey"
+	1    10900 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:C2012X5R1C106M085AC C14
+U 1 1 5B945E40
+P 10350 9450
+F 0 "C14" V 10250 9450 50  0000 L CNN
+F 1 "10uF|16V" V 10450 9450 50  0000 L CNN
+F 2 "arduinouno:C0805x145mm" H 10350 9500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 10500 9200 50  0001 C CNN
+F 4 "445-7645-1-ND" H 10350 9100 50  0001 C CNN "Digikey"
+	1    10350 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:MPZ2012S601AT000 FB3
+U 1 1 5B945E71
+P 9900 9250
+F 0 "FB3" H 9900 9350 50  0000 C CNN
+F 1 "MPZ2012S601AT000" H 9850 9150 50  0001 C CNN
+F 2 "arduinouno:FB0805x85mm" H 9800 9050 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 9950 9050 50  0001 C CNN
+F 4 "445-7645-1-ND" H 9900 8950 50  0001 C CNN "Digikey"
+	1    9900 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:C2012X7R1H104K085AA C20
+U 1 1 5B94924F
+P 11650 9950
+F 0 "C20" V 11550 9950 50  0000 L CNN
+F 1 "100nF" V 11750 9950 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 11650 10000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11800 9700 50  0001 C CNN
+F 4 "445-7534-1-ND" H 11650 9600 50  0001 C CNN "Digikey"
+	1    11650 9950
+	0    1    1    0   
+$EndComp
+Connection ~ 10900 9250
+Wire Wire Line
+	11800 9500 11700 9500
+Wire Wire Line
+	10900 9250 10900 9300
+Wire Wire Line
+	10100 9250 10350 9250
+Wire Wire Line
+	10350 9300 10350 9250
+Connection ~ 10350 9250
+Wire Wire Line
+	10350 9250 10900 9250
+Wire Wire Line
+	10900 8700 10900 8750
+Wire Wire Line
+	10100 8700 10350 8700
+Wire Wire Line
+	10350 8750 10350 8700
+Connection ~ 10350 8700
+Wire Wire Line
+	10350 8700 10900 8700
+$Comp
+L arduinouno:ABM7-16.000MHZ-D2Y-T Y1
+U 1 1 5B970DCD
+P 10350 10950
+F 0 "Y1" V 10350 11100 50  0000 L CNN
+F 1 "16.000MHz" V 10350 10400 50  0000 L CNN
+F 2 "arduinouno:ABM7_BIG" H 10350 10450 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/abm7.pdf" H 10400 10650 50  0001 C CNN
+F 4 "535-9840-1-ND" H 10350 10550 50  0001 C CNN "Digikey"
+	1    10350 10950
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:C0805C180J1GACTU C11
+U 1 1 5B970E6C
+P 9850 10700
+F 0 "C11" H 9700 10750 50  0000 C CNN
+F 1 "18pF" H 10000 10750 50  0000 C CNN
+F 2 "arduinouno:C0805x95mm" H 9850 10250 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf" H 10000 10450 50  0001 C CNN
+F 4 "399-8029-1-ND" H 9850 10350 50  0001 C CNN "Digikey"
+	1    9850 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:C0805C180J1GACTU C12
+U 1 1 5B970EF9
+P 9850 11200
+F 0 "C12" H 9700 11250 50  0000 C CNN
+F 1 "18pF" H 10000 11250 50  0000 C CNN
+F 2 "arduinouno:C0805x95mm" H 9850 10750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf" H 10000 10950 50  0001 C CNN
+F 4 "399-8029-1-ND" H 9850 10850 50  0001 C CNN "Digikey"
+	1    9850 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805FR-071ML R8
+U 1 1 5B972604
+P 11200 10950
+F 0 "R8" V 11154 11028 50  0000 L CNN
+F 1 "1M" V 11245 11028 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 11200 10550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 11150 10750 50  0001 C CNN
+F 4 "311-1.00MCRCT-ND" H 11200 10650 50  0001 C CNN "Digikey"
+	1    11200 10950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11800 10800 11650 10800
+Wire Wire Line
+	11650 10800 11650 10700
+Wire Wire Line
+	11800 11100 11650 11100
+Wire Wire Line
+	11650 11100 11650 11200
+Wire Wire Line
+	11200 10700 10350 10700
+Wire Wire Line
+	10350 10700 10350 10750
+Wire Wire Line
+	11200 11200 10350 11200
+Wire Wire Line
+	10350 11200 10350 11150
+Wire Wire Line
+	10000 10700 10350 10700
+Connection ~ 10350 10700
+Wire Wire Line
+	10000 11200 10350 11200
+Connection ~ 10350 11200
+Wire Wire Line
+	9700 11200 9550 11200
+Wire Wire Line
+	9700 10700 9550 10700
+$Comp
+L arduinouno:M20-7820842 J1
+U 1 1 5B94F34D
+P 2950 7250
+F 0 "J1" H 3000 7700 50  0000 C CNN
+F 1 "M20-7820842" H 2869 7734 50  0001 C CNN
+F 2 "arduinouno:8P_Header_Female_2.54mm" H 2950 6500 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-782.pdf" H 2900 6600 50  0001 C CNN
+F 4 "952-1823-ND" H 2900 6700 50  0001 C CNN "Digikey"
+	1    2950 7250
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3200 6900
+NoConn ~ 0    12150
+$Comp
+L arduinouno:C2012X7R1H104K085AA C4
+U 1 1 5B953F50
+P 2900 6450
+F 0 "C4" V 2854 6555 50  0000 L CNN
+F 1 "100nF" V 2945 6555 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 2900 6000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3050 6200 50  0001 C CNN
+F 4 "445-7534-1-ND" H 2900 6100 50  0001 C CNN "Digikey"
+	1    2900 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 7300 3300 7300
+$Comp
+L arduinouno:C2012X7R1H104K085AA C5
+U 1 1 5B95A992
+P 3500 6450
+F 0 "C5" V 3454 6555 50  0000 L CNN
+F 1 "100nF" V 3545 6555 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 3500 6000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3650 6200 50  0001 C CNN
+F 4 "445-7534-1-ND" H 3500 6100 50  0001 C CNN "Digikey"
+	1    3500 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 6300 2900 6300
+Wire Wire Line
+	3200 7000 3900 7000
+Wire Wire Line
+	3900 7000 3900 6300
+Wire Wire Line
+	3900 6300 3500 6300
+$Comp
+L arduinouno:C2012X7R1H104K085AA C7
+U 1 1 5B9639FE
+P 4150 6450
+F 0 "C7" V 4104 6555 50  0000 L CNN
+F 1 "100nF" V 4195 6555 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 4150 6000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 4300 6200 50  0001 C CNN
+F 4 "445-7534-1-ND" H 4150 6100 50  0001 C CNN "Digikey"
+	1    4150 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 7200 4000 7200
+Wire Wire Line
+	4000 7200 4000 6300
+Wire Wire Line
+	4000 6300 4150 6300
+$Comp
+L arduinouno:C2012X5R1C106M085AC C8
+U 1 1 5B966543
+P 4700 6450
+F 0 "C8" V 4654 6555 50  0000 L CNN
+F 1 "10uF|16V" V 4745 6555 50  0000 L CNN
+F 2 "arduinouno:C0805x145mm" H 4700 6000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 4850 6200 50  0001 C CNN
+F 4 "445-7645-1-ND" H 4700 6100 50  0001 C CNN "Digikey"
+	1    4700 6450
+	0    1    1    0   
+$EndComp
+NoConn ~ 3200 7600
+$Comp
+L arduinouno:+5V #PWR0101
+U 1 1 5B983ED8
+P 2900 6300
+F 0 "#PWR0101" H 2900 6000 50  0001 C CNN
+F 1 "+5V" H 2900 6450 50  0000 C CNN
+F 2 "" H 2900 6300 50  0001 C CNN
+F 3 "" H 2900 6300 50  0001 C CNN
+	1    2900 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2900 6300
+$Comp
+L arduinouno:+5V_3V3 #PWR0102
+U 1 1 5B986C60
+P 3500 6300
+F 0 "#PWR0102" H 3500 6000 50  0001 C CNN
+F 1 "+5V_3V3" H 3500 6450 50  0000 C CNN
+F 2 "" H 3500 6300 50  0001 C CNN
+F 3 "" H 3500 6300 50  0001 C CNN
+	1    3500 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 6300
+$Comp
+L arduinouno:+3V3 #PWR0103
+U 1 1 5B986CCF
+P 4150 6300
+F 0 "#PWR0103" H 4150 6000 50  0001 C CNN
+F 1 "+3V3" H 4150 6450 50  0000 C CNN
+F 2 "" H 4150 6300 50  0001 C CNN
+F 3 "" H 4150 6300 50  0001 C CNN
+	1    4150 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 6300
+Wire Wire Line
+	3200 7400 3300 7400
+Wire Wire Line
+	3300 7400 3300 7500
+Wire Wire Line
+	3200 7500 3300 7500
+Connection ~ 3300 7500
+Wire Wire Line
+	3300 7500 3300 7600
+$Comp
+L arduinouno:+5V_3V3 #PWR0104
+U 1 1 5B99C5F4
+P 4700 6300
+F 0 "#PWR0104" H 4700 6000 50  0001 C CNN
+F 1 "+5V_3V3" H 4700 6450 50  0000 C CNN
+F 2 "" H 4700 6300 50  0001 C CNN
+F 3 "" H 4700 6300 50  0001 C CNN
+	1    4700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0105
+U 1 1 5B958416
+P 2900 6600
+F 0 "#PWR0105" H 2900 6350 50  0001 C CNN
+F 1 "GND" H 2900 6450 50  0001 C CNN
+F 2 "" H 2900 6600 50  0001 C CNN
+F 3 "" H 2900 6600 50  0001 C CNN
+	1    2900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0106
+U 1 1 5B9584D0
+P 3500 6600
+F 0 "#PWR0106" H 3500 6350 50  0001 C CNN
+F 1 "GND" H 3500 6450 50  0001 C CNN
+F 2 "" H 3500 6600 50  0001 C CNN
+F 3 "" H 3500 6600 50  0001 C CNN
+	1    3500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0107
+U 1 1 5B958505
+P 4150 6600
+F 0 "#PWR0107" H 4150 6350 50  0001 C CNN
+F 1 "GND" H 4150 6450 50  0001 C CNN
+F 2 "" H 4150 6600 50  0001 C CNN
+F 3 "" H 4150 6600 50  0001 C CNN
+	1    4150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0108
+U 1 1 5B95853A
+P 4700 6600
+F 0 "#PWR0108" H 4700 6350 50  0001 C CNN
+F 1 "GND" H 4700 6450 50  0001 C CNN
+F 2 "" H 4700 6600 50  0001 C CNN
+F 3 "" H 4700 6600 50  0001 C CNN
+	1    4700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0109
+U 1 1 5B95856F
+P 3300 7600
+F 0 "#PWR0109" H 3300 7350 50  0001 C CNN
+F 1 "GND" H 3300 7450 50  0001 C CNN
+F 2 "" H 3300 7600 50  0001 C CNN
+F 3 "" H 3300 7600 50  0001 C CNN
+	1    3300 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0110
+U 1 1 5B95880D
+P 10350 9050
+F 0 "#PWR0110" H 10350 8800 50  0001 C CNN
+F 1 "GND" H 10350 8900 50  0001 C CNN
+F 2 "" H 10350 9050 50  0001 C CNN
+F 3 "" H 10350 9050 50  0001 C CNN
+	1    10350 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0111
+U 1 1 5B958842
+P 10900 9050
+F 0 "#PWR0111" H 10900 8800 50  0001 C CNN
+F 1 "GND" H 10900 8900 50  0001 C CNN
+F 2 "" H 10900 9050 50  0001 C CNN
+F 3 "" H 10900 9050 50  0001 C CNN
+	1    10900 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0112
+U 1 1 5B958877
+P 10350 9600
+F 0 "#PWR0112" H 10350 9350 50  0001 C CNN
+F 1 "GND" H 10350 9450 50  0001 C CNN
+F 2 "" H 10350 9600 50  0001 C CNN
+F 3 "" H 10350 9600 50  0001 C CNN
+	1    10350 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0113
+U 1 1 5B9588AC
+P 10900 9600
+F 0 "#PWR0113" H 10900 9350 50  0001 C CNN
+F 1 "GND" H 10900 9450 50  0001 C CNN
+F 2 "" H 10900 9600 50  0001 C CNN
+F 3 "" H 10900 9600 50  0001 C CNN
+	1    10900 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0114
+U 1 1 5B95892B
+P 11650 10100
+F 0 "#PWR0114" H 11650 9850 50  0001 C CNN
+F 1 "GND" H 11650 9950 50  0001 C CNN
+F 2 "" H 11650 10100 50  0001 C CNN
+F 3 "" H 11650 10100 50  0001 C CNN
+	1    11650 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0115
+U 1 1 5B958960
+P 9550 10700
+F 0 "#PWR0115" H 9550 10450 50  0001 C CNN
+F 1 "GND" H 9550 10550 50  0001 C CNN
+F 2 "" H 9550 10700 50  0001 C CNN
+F 3 "" H 9550 10700 50  0001 C CNN
+	1    9550 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0116
+U 1 1 5B958995
+P 9550 11200
+F 0 "#PWR0116" H 9550 10950 50  0001 C CNN
+F 1 "GND" H 9550 11050 50  0001 C CNN
+F 2 "" H 9550 11200 50  0001 C CNN
+F 3 "" H 9550 11200 50  0001 C CNN
+	1    9550 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0117
+U 1 1 5B9589CA
+P 11800 11500
+F 0 "#PWR0117" H 11800 11250 50  0001 C CNN
+F 1 "GND" H 11800 11350 50  0001 C CNN
+F 2 "" H 11800 11500 50  0001 C CNN
+F 3 "" H 11800 11500 50  0001 C CNN
+	1    11800 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:ABM7-16.000MHZ-D2Y-T Y2
+U 1 1 5B96A05E
+P 10500 4500
+F 0 "Y2" V 10500 4650 50  0000 L CNN
+F 1 "16.000MHz" V 10500 3950 50  0000 L CNN
+F 2 "arduinouno:ABM7_BIG" H 10500 4000 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/abm7.pdf" H 10550 4200 50  0001 C CNN
+F 4 "535-9840-1-ND" H 10500 4100 50  0001 C CNN "Digikey"
+	1    10500 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:C0805C180J1GACTU C15
+U 1 1 5B96A065
+P 10000 4250
+F 0 "C15" H 9850 4300 50  0000 C CNN
+F 1 "18pF" H 10150 4300 50  0000 C CNN
+F 2 "arduinouno:C0805x95mm" H 10000 3800 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf" H 10150 4000 50  0001 C CNN
+F 4 "399-8029-1-ND" H 10000 3900 50  0001 C CNN "Digikey"
+	1    10000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:C0805C180J1GACTU C16
+U 1 1 5B96A06C
+P 10000 4750
+F 0 "C16" H 9850 4800 50  0000 C CNN
+F 1 "18pF" H 10150 4800 50  0000 C CNN
+F 2 "arduinouno:C0805x95mm" H 10000 4300 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf" H 10150 4500 50  0001 C CNN
+F 4 "399-8029-1-ND" H 10000 4400 50  0001 C CNN "Digikey"
+	1    10000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805FR-071ML R9
+U 1 1 5B96A073
+P 11350 4500
+F 0 "R9" V 11304 4578 50  0000 L CNN
+F 1 "1M" V 11395 4578 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 11350 4100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 11300 4300 50  0001 C CNN
+F 4 "311-1.00MCRCT-ND" H 11350 4200 50  0001 C CNN "Digikey"
+	1    11350 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12000 4350 11850 4350
+Wire Wire Line
+	11850 4350 11850 4250
+Wire Wire Line
+	11850 4250 11350 4250
+Wire Wire Line
+	12000 4650 11850 4650
+Wire Wire Line
+	11850 4650 11850 4750
+Wire Wire Line
+	11850 4750 11350 4750
+Wire Wire Line
+	11350 4250 10500 4250
+Wire Wire Line
+	10500 4250 10500 4300
+Connection ~ 11350 4250
+Wire Wire Line
+	11350 4750 10500 4750
+Wire Wire Line
+	10500 4750 10500 4700
+Connection ~ 11350 4750
+Wire Wire Line
+	10150 4250 10500 4250
+Connection ~ 10500 4250
+Wire Wire Line
+	10150 4750 10500 4750
+Connection ~ 10500 4750
+Wire Wire Line
+	9850 4750 9700 4750
+Wire Wire Line
+	9850 4250 9700 4250
+$Comp
+L arduinouno:GND #PWR0118
+U 1 1 5B96A08B
+P 9700 4250
+F 0 "#PWR0118" H 9700 4000 50  0001 C CNN
+F 1 "GND" H 9700 4100 50  0001 C CNN
+F 2 "" H 9700 4250 50  0001 C CNN
+F 3 "" H 9700 4250 50  0001 C CNN
+	1    9700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0119
+U 1 1 5B96A091
+P 9700 4750
+F 0 "#PWR0119" H 9700 4500 50  0001 C CNN
+F 1 "GND" H 9700 4600 50  0001 C CNN
+F 2 "" H 9700 4750 50  0001 C CNN
+F 3 "" H 9700 4750 50  0001 C CNN
+	1    9700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:MPZ2012S601AT000 FB1
+U 1 1 5B98354B
+P 9700 2500
+F 0 "FB1" H 9700 2600 50  0000 C CNN
+F 1 "MPZ2012S601AT000" H 9700 2400 50  0001 C CNN
+F 2 "arduinouno:FB0805x85mm" H 9700 2100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 9750 2300 50  0001 C CNN
+F 4 "445-7645-1-ND" H 9700 2200 50  0001 C CNN "Digikey"
+	1    9700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:C2012X5R1C106M085AC C9
+U 1 1 5B9839B3
+P 10000 2700
+F 0 "C9" V 9900 2700 50  0000 L CNN
+F 1 "10uF|16V" V 10100 2700 50  0000 L CNN
+F 2 "arduinouno:C0805x145mm" H 10000 2250 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 10150 2450 50  0001 C CNN
+F 4 "445-7645-1-ND" H 10000 2350 50  0001 C CNN "Digikey"
+	1    10000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:C2012X7R1H104K085AA C10
+U 1 1 5B983BC3
+P 10500 2700
+F 0 "C10" V 10400 2700 50  0000 L CNN
+F 1 "100nF" V 10600 2700 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 10500 2250 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 10650 2450 50  0001 C CNN
+F 4 "445-7534-1-ND" H 10500 2350 50  0001 C CNN "Digikey"
+	1    10500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:C2012X7R1H104K085AA C17
+U 1 1 5B983D68
+P 10900 2700
+F 0 "C17" V 10800 2700 50  0000 L CNN
+F 1 "100nF" V 11000 2700 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 10900 2250 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11050 2450 50  0001 C CNN
+F 4 "445-7534-1-ND" H 10900 2350 50  0001 C CNN "Digikey"
+	1    10900 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:C2012X7R1H104K085AA C21
+U 1 1 5B983E38
+P 11700 3100
+F 0 "C21" V 11600 3100 50  0000 L CNN
+F 1 "100nF" V 11800 3100 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 11700 2650 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11850 2850 50  0001 C CNN
+F 4 "445-7534-1-ND" H 11700 2750 50  0001 C CNN "Digikey"
+	1    11700 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12000 3050 11900 3050
+Wire Wire Line
+	11900 3050 11900 2900
+Wire Wire Line
+	11900 2900 11700 2900
+$Comp
+L arduinouno:GND #PWR0120
+U 1 1 5B992544
+P 11700 3250
+F 0 "#PWR0120" H 11700 3000 50  0001 C CNN
+F 1 "GND" H 11700 3100 50  0001 C CNN
+F 2 "" H 11700 3250 50  0001 C CNN
+F 3 "" H 11700 3250 50  0001 C CNN
+	1    11700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0121
+U 1 1 5B99258B
+P 10900 2850
+F 0 "#PWR0121" H 10900 2600 50  0001 C CNN
+F 1 "GND" H 10900 2700 50  0001 C CNN
+F 2 "" H 10900 2850 50  0001 C CNN
+F 3 "" H 10900 2850 50  0001 C CNN
+	1    10900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0122
+U 1 1 5B9925D2
+P 10500 2850
+F 0 "#PWR0122" H 10500 2600 50  0001 C CNN
+F 1 "GND" H 10500 2700 50  0001 C CNN
+F 2 "" H 10500 2850 50  0001 C CNN
+F 3 "" H 10500 2850 50  0001 C CNN
+	1    10500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0123
+U 1 1 5B992619
+P 10000 2850
+F 0 "#PWR0123" H 10000 2600 50  0001 C CNN
+F 1 "GND" H 10000 2700 50  0001 C CNN
+F 2 "" H 10000 2850 50  0001 C CNN
+F 3 "" H 10000 2850 50  0001 C CNN
+	1    10000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0124
+U 1 1 5B992E59
+P 9400 2500
+F 0 "#PWR0124" H 9400 2200 50  0001 C CNN
+F 1 "+5V_3V3" H 9400 2650 50  0000 C CNN
+F 2 "" H 9400 2500 50  0001 C CNN
+F 3 "" H 9400 2500 50  0001 C CNN
+	1    9400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2500 9500 2500
+$Comp
+L arduinouno:+5V_3V3 #PWR0125
+U 1 1 5B997D62
+P 9600 8700
+F 0 "#PWR0125" H 9600 8400 50  0001 C CNN
+F 1 "+5V_3V3" H 9600 8850 50  0000 C CNN
+F 2 "" H 9600 8700 50  0001 C CNN
+F 3 "" H 9600 8700 50  0001 C CNN
+	1    9600 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 8700 9700 8700
+$Comp
+L arduinouno:+5V_3V3 #PWR0126
+U 1 1 5B9A187D
+P 9600 9250
+F 0 "#PWR0126" H 9600 8950 50  0001 C CNN
+F 1 "+5V_3V3" H 9600 9400 50  0000 C CNN
+F 2 "" H 9600 9250 50  0001 C CNN
+F 3 "" H 9600 9250 50  0001 C CNN
+	1    9600 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 9250 9700 9250
+$Comp
+L arduinouno:+5V #PWR0127
+U 1 1 5B9A7435
+P 11700 2900
+F 0 "#PWR0127" H 11700 2600 50  0001 C CNN
+F 1 "+5V" H 11700 3050 50  0000 C CNN
+F 2 "" H 11700 2900 50  0001 C CNN
+F 3 "" H 11700 2900 50  0001 C CNN
+	1    11700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2500 10000 2500
+Wire Wire Line
+	10000 2550 10000 2500
+Connection ~ 10000 2500
+Wire Wire Line
+	10000 2500 10500 2500
+Wire Wire Line
+	10500 2550 10500 2500
+Connection ~ 10500 2500
+Wire Wire Line
+	10500 2500 10900 2500
+Wire Wire Line
+	10900 2550 10900 2500
+Connection ~ 10900 2500
+Wire Wire Line
+	10900 2500 12000 2500
+Wire Wire Line
+	11700 2950 11700 2900
+Connection ~ 11700 2900
+$Comp
+L arduinouno:67997-106HLF J4
+U 1 1 5B962D53
+P 18350 8250
+F 0 "J4" H 18350 8450 50  0000 C CNN
+F 1 "67997-106HLF" H 18350 8484 50  0001 C CNN
+F 2 "arduinouno:HDR_2x3_2.54mm" H 18450 7450 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 18350 7850 50  0001 C CNN
+F 4 "609-3393-ND" H 18350 7950 50  0001 C CNN "Digikey"
+	1    18350 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18000 8150 17150 8150
+Wire Wire Line
+	17150 8150 17150 9400
+Connection ~ 17150 9400
+Wire Wire Line
+	17150 9400 17550 9400
+Wire Wire Line
+	18000 8250 17250 8250
+Wire Wire Line
+	17250 8250 17250 9300
+Wire Wire Line
+	18000 8350 17500 8350
+Wire Wire Line
+	18700 8250 18950 8250
+Wire Wire Line
+	18950 8250 18950 7900
+Wire Wire Line
+	18950 7900 17050 7900
+Wire Wire Line
+	17050 7900 17050 9500
+Connection ~ 17050 9500
+Wire Wire Line
+	17050 9500 14400 9500
+$Comp
+L arduinouno:GND #PWR0128
+U 1 1 5B9838C4
+P 18700 8500
+F 0 "#PWR0128" H 18700 8250 50  0001 C CNN
+F 1 "GND" H 18700 8350 50  0001 C CNN
+F 2 "" H 18700 8500 50  0001 C CNN
+F 3 "" H 18700 8500 50  0001 C CNN
+	1    18700 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 8150 19200 8150
+$Comp
+L arduinouno:C2012X7R1H104K085AA C25
+U 1 1 5B98989C
+P 19200 8350
+F 0 "C25" V 19100 8350 50  0000 L CNN
+F 1 "100nF" V 19300 8350 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 19200 7900 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 19350 8100 50  0001 C CNN
+F 4 "445-7534-1-ND" H 19200 8000 50  0001 C CNN "Digikey"
+	1    19200 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0129
+U 1 1 5B98A3C6
+P 19200 8150
+F 0 "#PWR0129" H 19200 7850 50  0001 C CNN
+F 1 "+5V_3V3" H 19200 8300 50  0000 C CNN
+F 2 "" H 19200 8150 50  0001 C CNN
+F 3 "" H 19200 8150 50  0001 C CNN
+	1    19200 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0130
+U 1 1 5B98A871
+P 19200 8500
+F 0 "#PWR0130" H 19200 8250 50  0001 C CNN
+F 1 "GND" H 19200 8350 50  0001 C CNN
+F 2 "" H 19200 8500 50  0001 C CNN
+F 3 "" H 19200 8500 50  0001 C CNN
+	1    19200 8500
+	1    0    0    -1  
+$EndComp
+Text Label 14550 11400 0    50   ~ 0
+IO0
+Text Label 17500 8350 0    50   ~ 0
+328P_RESETn
+Text Label 4350 7100 0    50   ~ 0
+328P_RESETn
+Text Label 14550 11300 0    50   ~ 0
+IO1
+Text Label 14550 11200 0    50   ~ 0
+IO2
+Text Label 14550 11100 0    50   ~ 0
+IO3
+Text Label 14550 11000 0    50   ~ 0
+IO4
+Text Label 14550 10900 0    50   ~ 0
+IO5
+Text Label 14550 10800 0    50   ~ 0
+IO6
+Text Label 14550 10700 0    50   ~ 0
+IO7
+Text Label 14550 10500 0    50   ~ 0
+AD0
+Text Label 14550 10400 0    50   ~ 0
+AD1
+Text Label 14550 10300 0    50   ~ 0
+AD2
+Text Label 14550 10200 0    50   ~ 0
+AD3
+Text Label 14550 10100 0    50   ~ 0
+AD4_SDA
+Text Label 14550 10000 0    50   ~ 0
+AD5_SCL
+Text Label 14550 9800 0    50   ~ 0
+IO8
+Text Label 14550 9700 0    50   ~ 0
+IO9
+Text Label 14550 9600 0    50   ~ 0
+SS
+Text Label 14550 9500 0    50   ~ 0
+MOSI
+Text Label 14550 9400 0    50   ~ 0
+MISO
+Wire Wire Line
+	18000 8700 16850 8700
+Wire Wire Line
+	16850 8700 16850 10000
+Connection ~ 16850 10000
+Wire Wire Line
+	16850 10000 14400 10000
+Wire Wire Line
+	18000 8800 16950 8800
+Wire Wire Line
+	16950 8800 16950 10100
+Connection ~ 16950 10100
+Wire Wire Line
+	16950 10100 18000 10100
+Text Label 17650 8700 0    50   ~ 0
+AD5_SCL
+Text Label 17650 8800 0    50   ~ 0
+AD4_SDA
+Wire Wire Line
+	18000 9000 17350 9000
+$Comp
+L arduinouno:GND #PWR0131
+U 1 1 5B98F0F3
+P 17350 9100
+F 0 "#PWR0131" H 17350 8850 50  0001 C CNN
+F 1 "GND" H 17350 8950 50  0001 C CNN
+F 2 "" H 17350 9100 50  0001 C CNN
+F 3 "" H 17350 9100 50  0001 C CNN
+	1    17350 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0132
+U 1 1 5B98F185
+P 15350 9000
+F 0 "#PWR0132" H 15350 8750 50  0001 C CNN
+F 1 "GND" H 15350 8850 50  0001 C CNN
+F 2 "" H 15350 9000 50  0001 C CNN
+F 3 "" H 15350 9000 50  0001 C CNN
+	1    15350 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:C2012X5R1C106M085AC C22
+U 1 1 5B98F213
+P 15350 8850
+F 0 "C22" V 15250 8850 50  0000 L CNN
+F 1 "10uF|16V" V 15450 8850 50  0000 L CNN
+F 2 "arduinouno:C0805x145mm" H 15350 8400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 15500 8600 50  0001 C CNN
+F 4 "445-7645-1-ND" H 15350 8500 50  0001 C CNN "Digikey"
+	1    15350 8850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18000 8900 15750 8900
+Wire Wire Line
+	15750 8900 15750 8650
+Wire Wire Line
+	15750 8650 15350 8650
+$Comp
+L arduinouno:+AREF #PWR0133
+U 1 1 5BA19FD9
+P 15350 8650
+F 0 "#PWR0133" H 15350 8350 50  0001 C CNN
+F 1 "+AREF" H 15350 8800 50  0000 C CNN
+F 2 "" H 15350 8650 50  0001 C CNN
+F 3 "" H 15350 8650 50  0001 C CNN
+	1    15350 8650
+	1    0    0    -1  
+$EndComp
+Connection ~ 15350 8650
+$Comp
+L arduinouno:+AREF #PWR0134
+U 1 1 5BA20824
+P 11650 9750
+F 0 "#PWR0134" H 11650 9450 50  0001 C CNN
+F 1 "+AREF" H 11650 9900 50  0000 C CNN
+F 2 "" H 11650 9750 50  0001 C CNN
+F 3 "" H 11650 9750 50  0001 C CNN
+	1    11650 9750
+	1    0    0    -1  
+$EndComp
+Connection ~ 11800 11400
+Wire Wire Line
+	11800 11400 11800 11500
+Wire Wire Line
+	11800 11300 11800 11400
+Wire Wire Line
+	11800 9750 11650 9750
+Text Label 17800 8150 0    50   ~ 0
+MISO
+Text Label 18700 8250 0    50   ~ 0
+MOSI
+Wire Wire Line
+	18000 9100 17450 9100
+Wire Wire Line
+	17450 9100 17450 9300
+Text Label 17800 9100 0    50   ~ 0
+SCK
+$Comp
+L arduinouno:RC0805FR-0722RL R11
+U 1 1 5BA581D0
+P 15250 9300
+F 0 "R11" H 15000 9350 50  0000 C CNN
+F 1 "22R" H 15500 9350 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 15250 8900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 15200 9100 50  0001 C CNN
+F 4 "311-22.0CRCT-ND" H 15250 9000 50  0001 C CNN "Digikey"
+	1    15250 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 9300 14400 9300
+Text Label 14550 9300 0    50   ~ 0
+SCK_R
+Text Label 15700 9300 0    50   ~ 0
+SCK
+Text Label 17850 8250 0    50   ~ 0
+SCK
+$Comp
+L arduinouno:RC0805FR-071KL R12
+U 1 1 5BAB4707
+P 15350 4750
+F 0 "R12" H 15100 4800 50  0000 C CNN
+F 1 "1k" H 15550 4800 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 15350 4350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 15300 4550 50  0001 C CNN
+F 4 "311-1.00KCRCT-ND" H 15350 4450 50  0001 C CNN "Digikey"
+	1    15350 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16400 11650 16400 4750
+Wire Wire Line
+	16400 4750 15600 4750
+Connection ~ 16400 11650
+Wire Wire Line
+	16400 11650 18000 11650
+Wire Wire Line
+	16300 11550 16300 4850
+Wire Wire Line
+	16300 4850 15600 4850
+Connection ~ 16300 11550
+Wire Wire Line
+	16300 11550 15100 11550
+$Comp
+L arduinouno:RC0805FR-071KL R13
+U 1 1 5BAF5814
+P 15350 4850
+F 0 "R13" H 15100 4900 50  0000 C CNN
+F 1 "1k" H 15550 4900 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 15350 4450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 15300 4650 50  0001 C CNN
+F 4 "311-1.00KCRCT-ND" H 15350 4550 50  0001 C CNN "Digikey"
+	1    15350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 4850 14400 4850
+Wire Wire Line
+	15100 4750 14400 4750
+Text Label 14450 4850 0    50   ~ 0
+16U2_RXD
+Text Label 14450 4750 0    50   ~ 0
+16U2_TXD
+Connection ~ 17250 9300
+Wire Wire Line
+	17250 9300 15500 9300
+Wire Wire Line
+	17450 9300 17250 9300
+$Comp
+L arduinouno:67997-106HLF J3
+U 1 1 5BB3D513
+P 18350 3450
+F 0 "J3" H 18350 3650 50  0000 C CNN
+F 1 "67997-106HLF" H 18350 3684 50  0001 C CNN
+F 2 "arduinouno:HDR_2x3_2.54mm" H 18450 2650 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 18350 3050 50  0001 C CNN
+F 4 "609-3393-ND" H 18350 3150 50  0001 C CNN "Digikey"
+	1    18350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805FR-0722RL R10
+U 1 1 5BB3D5C6
+P 16600 3450
+F 0 "R10" H 16350 3500 50  0000 C CNN
+F 1 "22R" H 16850 3500 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 16600 3050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 16550 3250 50  0001 C CNN
+F 4 "311-22.0CRCT-ND" H 16600 3150 50  0001 C CNN "Digikey"
+	1    16600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17250 3350 17250 3250
+Wire Wire Line
+	17250 3250 14400 3250
+Wire Wire Line
+	18700 3350 19050 3350
+$Comp
+L arduinouno:C2012X7R1H104K085AA C23
+U 1 1 5BB64FC4
+P 19050 3550
+F 0 "C23" V 18950 3550 50  0000 L CNN
+F 1 "100nF" V 19150 3550 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 19050 3100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 19200 3300 50  0001 C CNN
+F 4 "445-7534-1-ND" H 19050 3200 50  0001 C CNN "Digikey"
+	1    19050 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0135
+U 1 1 5BB64FCA
+P 19050 3350
+F 0 "#PWR0135" H 19050 3050 50  0001 C CNN
+F 1 "+5V_3V3" H 19050 3500 50  0000 C CNN
+F 2 "" H 19050 3350 50  0001 C CNN
+F 3 "" H 19050 3350 50  0001 C CNN
+	1    19050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0136
+U 1 1 5BB64FD0
+P 19050 3700
+F 0 "#PWR0136" H 19050 3450 50  0001 C CNN
+F 1 "GND" H 19050 3550 50  0001 C CNN
+F 2 "" H 19050 3700 50  0001 C CNN
+F 3 "" H 19050 3700 50  0001 C CNN
+	1    19050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 3450 18800 3450
+Wire Wire Line
+	18800 3450 18800 3150
+Wire Wire Line
+	17150 3150 17150 3350
+$Comp
+L arduinouno:GND #PWR0137
+U 1 1 5BB7581C
+P 18800 3700
+F 0 "#PWR0137" H 18800 3450 50  0001 C CNN
+F 1 "GND" H 18800 3550 50  0001 C CNN
+F 2 "" H 18800 3700 50  0001 C CNN
+F 3 "" H 18800 3700 50  0001 C CNN
+	1    18800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 3550 18800 3550
+Wire Wire Line
+	18800 3550 18800 3700
+Wire Wire Line
+	19200 8150 19200 8200
+Connection ~ 19200 8150
+Wire Wire Line
+	19050 3350 19050 3400
+Connection ~ 19050 3350
+Wire Wire Line
+	18700 8350 18700 8500
+Wire Wire Line
+	11650 9750 11650 9800
+Connection ~ 11650 9750
+Wire Wire Line
+	15350 8700 15350 8650
+Wire Wire Line
+	3300 6300 3300 7300
+Wire Wire Line
+	3200 7100 4350 7100
+Wire Wire Line
+	17350 9000 17350 9100
+$Comp
+L arduinouno:1825910-6 SW1
+U 1 1 5B99299D
+P 6950 14150
+F 0 "SW1" H 6950 14350 50  0000 C CNN
+F 1 "1825910-6" H 6950 13950 50  0000 C CNN
+F 2 "arduinouno:1825910-6" H 6950 13650 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 6950 13850 50  0001 C CNN
+F 4 "450-1650-ND" H 6950 14350 50  0001 C CNN "Digikey"
+	1    6950 14150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 14050 6600 14050
+Wire Wire Line
+	6600 14050 6600 14250
+Wire Wire Line
+	6650 14250 6600 14250
+Connection ~ 6600 14250
+Wire Wire Line
+	6600 14250 6600 14450
+$Comp
+L arduinouno:GND #PWR0138
+U 1 1 5B9B2940
+P 6600 14450
+F 0 "#PWR0138" H 6600 14200 50  0001 C CNN
+F 1 "GND" H 6600 14300 50  0001 C CNN
+F 2 "" H 6600 14450 50  0001 C CNN
+F 3 "" H 6600 14450 50  0001 C CNN
+	1    6600 14450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 14250 7300 14250
+Wire Wire Line
+	7300 14250 7300 14050
+Wire Wire Line
+	7300 14050 7250 14050
+$Comp
+L arduinouno:RC0805FR-0710KL R3
+U 1 1 5B9CA074
+P 8000 13700
+F 0 "R3" V 7954 13778 50  0000 L CNN
+F 1 "10k" V 8045 13778 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 8000 13300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7950 13500 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 8000 13400 50  0001 C CNN "Digikey"
+	1    8000 13700
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:BAT54HT1G D2
+U 1 1 5B9CA4E4
+P 8450 13650
+F 0 "D2" V 8400 13522 50  0000 R CNN
+F 1 "BAT54HT1G" V 8355 13522 50  0001 R CNN
+F 2 "arduinouno:SOD323" H 8450 13150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BAT54HT1-D.PDF" H 8650 13350 50  0001 C CNN
+F 4 "BAT54HT1GOSTR-ND" H 8400 13250 50  0001 C CNN "Digikey"
+	1    8450 13650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduinouno:RC0805FR-0722RL R4
+U 1 1 5B9CA685
+P 8900 14050
+F 0 "R4" H 8650 14100 50  0000 C CNN
+F 1 "22R" H 9150 14100 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 8900 13650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8850 13850 50  0001 C CNN
+F 4 "311-22.0CRCT-ND" H 8900 13750 50  0001 C CNN "Digikey"
+	1    8900 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 13850 8450 14050
+Wire Wire Line
+	8000 13950 8000 14050
+$Comp
+L arduinouno:+5V_3V3 #PWR0139
+U 1 1 5B9EDFD1
+P 8000 13450
+F 0 "#PWR0139" H 8000 13150 50  0001 C CNN
+F 1 "+5V_3V3" H 8000 13600 50  0000 C CNN
+F 2 "" H 8000 13450 50  0001 C CNN
+F 3 "" H 8000 13450 50  0001 C CNN
+	1    8000 13450
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0140
+U 1 1 5B9EE034
+P 8450 13450
+F 0 "#PWR0140" H 8450 13150 50  0001 C CNN
+F 1 "+5V_3V3" H 8450 13600 50  0000 C CNN
+F 2 "" H 8450 13450 50  0001 C CNN
+F 3 "" H 8450 13450 50  0001 C CNN
+	1    8450 13450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 13450 8450 13550
+Wire Wire Line
+	9150 14050 9350 14050
+$Comp
+L arduinouno:C2012X7R1H104K085AA C3
+U 1 1 5BA12920
+P 9350 14300
+F 0 "C3" V 9250 14300 50  0000 L CNN
+F 1 "100nF" V 9450 14300 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 9350 14350 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 9500 14050 50  0001 C CNN
+F 4 "445-7534-1-ND" H 9350 13950 50  0001 C CNN "Digikey"
+	1    9350 14300
+	0    1    1    0   
+$EndComp
+Connection ~ 9350 14050
+Wire Wire Line
+	9350 14050 10200 14050
+$Comp
+L arduinouno:GND #PWR0141
+U 1 1 5BA129B5
+P 9350 14500
+F 0 "#PWR0141" H 9350 14250 50  0001 C CNN
+F 1 "GND" H 9350 14350 50  0001 C CNN
+F 2 "" H 9350 14500 50  0001 C CNN
+F 3 "" H 9350 14500 50  0001 C CNN
+	1    9350 14500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 14050 9350 14150
+Wire Wire Line
+	9350 14450 9350 14500
+Wire Wire Line
+	8450 14050 8650 14050
+Wire Wire Line
+	7300 14050 8000 14050
+Connection ~ 7300 14050
+Connection ~ 8450 14050
+Connection ~ 8000 14050
+Wire Wire Line
+	8000 14050 8450 14050
+$Comp
+L arduinouno:GND #PWR0142
+U 1 1 5BA93569
+P 10500 14250
+F 0 "#PWR0142" H 10500 14000 50  0001 C CNN
+F 1 "GND" H 10500 14100 50  0001 C CNN
+F 2 "" H 10500 14250 50  0001 C CNN
+F 3 "" H 10500 14250 50  0001 C CNN
+	1    10500 14250
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805FR-0710KL R5
+U 1 1 5BAA04F3
+P 10100 13500
+F 0 "R5" V 10054 13578 50  0000 L CNN
+F 1 "10k" V 10145 13578 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 10100 13100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 10050 13300 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 10100 13200 50  0001 C CNN "Digikey"
+	1    10100 13500
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0143
+U 1 1 5BAA04FA
+P 10100 13250
+F 0 "#PWR0143" H 10100 12950 50  0001 C CNN
+F 1 "+5V_3V3" H 10100 13400 50  0000 C CNN
+F 2 "" H 10100 13250 50  0001 C CNN
+F 3 "" H 10100 13250 50  0001 C CNN
+	1    10100 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:SN74AHC1G09DBVR U2
+U 1 1 5BA934C0
+P 10500 13950
+F 0 "U2" H 10600 14100 50  0000 L CNN
+F 1 "SN74AHC1G09DBVR" H 10600 13750 50  0000 L CNN
+F 2 "arduinouno:DBV_SOT23_5" H 10500 12950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf" H 10500 13150 50  0001 C CNN
+F 4 "296-29202-1-ND" H 10500 13050 50  0001 C CNN "Digikey"
+	1    10500 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 13850 10100 13850
+Wire Wire Line
+	10100 13750 10100 13850
+Connection ~ 10100 13850
+Wire Wire Line
+	10100 13850 9350 13850
+$Comp
+L arduinouno:C2012X7R1H104K085AA C6
+U 1 1 5BAE1B36
+P 10950 13500
+F 0 "C6" V 10850 13500 50  0000 L CNN
+F 1 "100nF" V 11050 13500 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 10950 13550 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11100 13250 50  0001 C CNN
+F 4 "445-7534-1-ND" H 10950 13150 50  0001 C CNN "Digikey"
+	1    10950 13500
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:GND #PWR0144
+U 1 1 5BAE1B3C
+P 10950 13650
+F 0 "#PWR0144" H 10950 13400 50  0001 C CNN
+F 1 "GND" H 10950 13500 50  0001 C CNN
+F 2 "" H 10950 13650 50  0001 C CNN
+F 3 "" H 10950 13650 50  0001 C CNN
+	1    10950 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0145
+U 1 1 5BAFC489
+P 10500 13250
+F 0 "#PWR0145" H 10500 12950 50  0001 C CNN
+F 1 "+5V_3V3" H 10500 13400 50  0000 C CNN
+F 2 "" H 10500 13250 50  0001 C CNN
+F 3 "" H 10500 13250 50  0001 C CNN
+	1    10500 13250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 13250 10500 13300
+Wire Wire Line
+	10950 13350 10950 13300
+Wire Wire Line
+	10950 13300 10500 13300
+Connection ~ 10500 13300
+Wire Wire Line
+	10500 13300 10500 13600
+Wire Wire Line
+	10800 13950 10850 13950
+Text Label 7300 14050 0    50   ~ 0
+BUTTON_RESETn
+Text Label 9350 13850 0    50   ~ 0
+328P_AUTORESETn
+Text Label 9350 14050 0    50   ~ 0
+328P_BUF_RESETn
+Text Label 10850 13950 0    50   ~ 0
+328P_RESETn
+Wire Wire Line
+	11800 10500 11200 10500
+$Comp
+L arduinouno:RC0805FR-0710KL R6
+U 1 1 5BBA2AE2
+P 11200 10250
+F 0 "R6" V 11154 10328 50  0000 L CNN
+F 1 "10k" V 11245 10328 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 11200 9850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 11150 10050 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 11200 9950 50  0001 C CNN "Digikey"
+	1    11200 10250
+	0    1    1    0   
+$EndComp
+Connection ~ 11200 10500
+Wire Wire Line
+	11200 10500 10600 10500
+$Comp
+L arduinouno:+5V_3V3 #PWR0146
+U 1 1 5BBCD96F
+P 11200 10000
+F 0 "#PWR0146" H 11200 9700 50  0001 C CNN
+F 1 "+5V_3V3" H 11200 10150 50  0000 C CNN
+F 2 "" H 11200 10000 50  0001 C CNN
+F 3 "" H 11200 10000 50  0001 C CNN
+	1    11200 10000
+	1    0    0    -1  
+$EndComp
+Text Label 10600 10500 0    50   ~ 0
+328P_RESETn
+$Comp
+L arduinouno:68000-103HLF JP1
+U 1 1 5BC514AC
+P 18700 6350
+F 0 "JP1" H 18650 6550 50  0000 L CNN
+F 1 "68000-103HLF" H 18828 6310 50  0001 L CNN
+F 2 "arduinouno:3P_Header_2.54mm" H 18700 5700 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf" H 18700 6050 50  0001 C CNN
+F 4 "609-3461-ND" H 18700 5950 50  0001 C CNN "Digikey"
+	1    18700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:C2012X7R1H104K085AA C24
+U 1 1 5BC53676
+P 18150 6100
+F 0 "C24" H 18150 6342 50  0000 C CNN
+F 1 "100nF" H 18150 6251 50  0000 C CNN
+F 2 "arduinouno:C0805x95mm" H 18150 5650 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 18300 5850 50  0001 C CNN
+F 4 "445-7534-1-ND" H 18150 5750 50  0001 C CNN "Digikey"
+	1    18150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805FR-071KL R14
+U 1 1 5BC53F15
+P 18100 6600
+F 0 "R14" H 17850 6650 50  0000 C CNN
+F 1 "1k" H 18300 6650 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 18100 6200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 18050 6400 50  0001 C CNN
+F 4 "311-1.00KCRCT-ND" H 18100 6300 50  0001 C CNN "Digikey"
+	1    18100 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18450 6600 18450 6450
+Wire Wire Line
+	17850 6600 17600 6600
+Wire Wire Line
+	17600 6600 17600 6650
+$Comp
+L arduinouno:GND #PWR0147
+U 1 1 5BC70E3E
+P 17600 6650
+F 0 "#PWR0147" H 17600 6400 50  0001 C CNN
+F 1 "GND" H 17600 6500 50  0001 C CNN
+F 2 "" H 17600 6650 50  0001 C CNN
+F 3 "" H 17600 6650 50  0001 C CNN
+	1    17600 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18450 6350 17200 6350
+Text Label 17200 6350 0    50   ~ 0
+16U2PROG_328P_RESETn
+Wire Wire Line
+	18300 6100 18450 6100
+Wire Wire Line
+	18450 6100 18450 6250
+Wire Wire Line
+	18000 6100 17200 6100
+Text Label 17200 6100 0    50   ~ 0
+328P_AUTORESETn
+Wire Wire Line
+	18450 6600 18350 6600
+Wire Wire Line
+	14400 4350 14600 4350
+Text Label 15450 4350 0    50   ~ 0
+16U2PROG_328P_RESETn
+$Comp
+L arduinouno:RC0805FR-0710KL R1
+U 1 1 5BD32F50
+P 1050 13800
+F 0 "R1" V 1004 13878 50  0000 L CNN
+F 1 "10k" V 1095 13878 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 1050 13400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1000 13600 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 1050 13500 50  0001 C CNN "Digikey"
+	1    1050 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:BAT54HT1G D1
+U 1 1 5BD32F57
+P 1500 13750
+F 0 "D1" V 1450 13622 50  0000 R CNN
+F 1 "BAT54HT1G" V 1405 13622 50  0001 R CNN
+F 2 "arduinouno:SOD323" H 1500 13250 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BAT54HT1-D.PDF" H 1700 13450 50  0001 C CNN
+F 4 "BAT54HT1GOSTR-ND" H 1450 13350 50  0001 C CNN "Digikey"
+	1    1500 13750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduinouno:RC0805FR-0722RL R2
+U 1 1 5BD32F5E
+P 1950 14150
+F 0 "R2" H 1700 14200 50  0000 C CNN
+F 1 "22R" H 2200 14200 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 1950 13750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 1900 13950 50  0001 C CNN
+F 4 "311-22.0CRCT-ND" H 1950 13850 50  0001 C CNN "Digikey"
+	1    1950 14150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 13950 1500 14150
+Wire Wire Line
+	1050 14050 1050 14150
+$Comp
+L arduinouno:+5V_3V3 #PWR0148
+U 1 1 5BD32F66
+P 1050 13550
+F 0 "#PWR0148" H 1050 13250 50  0001 C CNN
+F 1 "+5V_3V3" H 1050 13700 50  0000 C CNN
+F 2 "" H 1050 13550 50  0001 C CNN
+F 3 "" H 1050 13550 50  0001 C CNN
+	1    1050 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0149
+U 1 1 5BD32F6C
+P 1500 13550
+F 0 "#PWR0149" H 1500 13250 50  0001 C CNN
+F 1 "+5V_3V3" H 1500 13700 50  0000 C CNN
+F 2 "" H 1500 13550 50  0001 C CNN
+F 3 "" H 1500 13550 50  0001 C CNN
+	1    1500 13550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 13550 1500 13650
+Wire Wire Line
+	2200 14150 2400 14150
+$Comp
+L arduinouno:C2012X7R1H104K085AA C1
+U 1 1 5BD32F75
+P 2400 14400
+F 0 "C1" V 2300 14400 50  0000 L CNN
+F 1 "100nF" V 2500 14400 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 2400 14450 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 2550 14150 50  0001 C CNN
+F 4 "445-7534-1-ND" H 2400 14050 50  0001 C CNN "Digikey"
+	1    2400 14400
+	0    1    1    0   
+$EndComp
+Connection ~ 2400 14150
+Wire Wire Line
+	2400 14150 3150 14150
+$Comp
+L arduinouno:GND #PWR0150
+U 1 1 5BD32F7D
+P 2400 14600
+F 0 "#PWR0150" H 2400 14350 50  0001 C CNN
+F 1 "GND" H 2400 14450 50  0001 C CNN
+F 2 "" H 2400 14600 50  0001 C CNN
+F 3 "" H 2400 14600 50  0001 C CNN
+	1    2400 14600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 14150 2400 14250
+Wire Wire Line
+	2400 14550 2400 14600
+Wire Wire Line
+	1500 14150 1700 14150
+Connection ~ 1500 14150
+Wire Wire Line
+	1050 14150 1500 14150
+$Comp
+L arduinouno:GND #PWR0151
+U 1 1 5BD32F8A
+P 3550 14350
+F 0 "#PWR0151" H 3550 14100 50  0001 C CNN
+F 1 "GND" H 3550 14200 50  0001 C CNN
+F 2 "" H 3550 14350 50  0001 C CNN
+F 3 "" H 3550 14350 50  0001 C CNN
+	1    3550 14350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:SN74AHC1G09DBVR U1
+U 1 1 5BD32F9E
+P 3550 14050
+F 0 "U1" H 3650 14200 50  0000 L CNN
+F 1 "SN74AHC1G09DBVR" H 3650 13850 50  0000 L CNN
+F 2 "arduinouno:DBV_SOT23_5" H 3550 13050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf" H 3550 13250 50  0001 C CNN
+F 4 "296-29202-1-ND" H 3550 13150 50  0001 C CNN "Digikey"
+	1    3550 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 13950 3150 13950
+$Comp
+L arduinouno:C2012X7R1H104K085AA C2
+U 1 1 5BD32FA9
+P 4000 13600
+F 0 "C2" V 3900 13600 50  0000 L CNN
+F 1 "100nF" V 4100 13600 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 4000 13650 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 4150 13350 50  0001 C CNN
+F 4 "445-7534-1-ND" H 4000 13250 50  0001 C CNN "Digikey"
+	1    4000 13600
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:GND #PWR0152
+U 1 1 5BD32FAF
+P 4000 13750
+F 0 "#PWR0152" H 4000 13500 50  0001 C CNN
+F 1 "GND" H 4000 13600 50  0001 C CNN
+F 2 "" H 4000 13750 50  0001 C CNN
+F 3 "" H 4000 13750 50  0001 C CNN
+	1    4000 13750
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0153
+U 1 1 5BD32FB5
+P 3550 13350
+F 0 "#PWR0153" H 3550 13050 50  0001 C CNN
+F 1 "+5V_3V3" H 3550 13500 50  0000 C CNN
+F 2 "" H 3550 13350 50  0001 C CNN
+F 3 "" H 3550 13350 50  0001 C CNN
+	1    3550 13350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 13350 3550 13400
+Wire Wire Line
+	4000 13450 4000 13400
+Wire Wire Line
+	4000 13400 3550 13400
+Connection ~ 3550 13400
+Wire Wire Line
+	3550 13400 3550 13700
+Wire Wire Line
+	3850 14050 3900 14050
+Text Label 2400 14150 0    50   ~ 0
+16U2_BUF_RESETn
+Text Label 3900 14050 0    50   ~ 0
+16U2_RESETn
+Wire Wire Line
+	3150 13950 3150 14150
+Connection ~ 3150 14150
+Wire Wire Line
+	3150 14150 3250 14150
+Wire Wire Line
+	12000 3400 11350 3400
+$Comp
+L arduinouno:RC0805FR-0710KL R7
+U 1 1 5BD57A80
+P 11350 3150
+F 0 "R7" V 11304 3228 50  0000 L CNN
+F 1 "10k" V 11395 3228 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 11350 2750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 11300 2950 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 11350 2850 50  0001 C CNN "Digikey"
+	1    11350 3150
+	0    1    1    0   
+$EndComp
+Connection ~ 11350 3400
+Wire Wire Line
+	11350 3400 10750 3400
+Text Label 10750 3400 0    50   ~ 0
+16U2_RESETn
+$Comp
+L arduinouno:+5V_3V3 #PWR0154
+U 1 1 5BDFC1A8
+P 11350 2900
+F 0 "#PWR0154" H 11350 2600 50  0001 C CNN
+F 1 "+5V_3V3" H 11350 3050 50  0000 C CNN
+F 2 "" H 11350 2900 50  0001 C CNN
+F 3 "" H 11350 2900 50  0001 C CNN
+	1    11350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:68001-204HLF JP2
+U 1 1 5B9D8F53
+P 18300 4450
+F 0 "JP2" H 18250 4700 50  0000 L CNN
+F 1 "68001-204HLF" H 18428 4410 50  0001 L CNN
+F 2 "arduinouno:4P_Header_2.54mm" H 18300 3800 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf" H 18300 4100 50  0001 C CNN
+F 4 "609-3402-ND" H 18300 4000 50  0001 C CNN "Digikey"
+	1    18300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18050 4600 17250 4600
+Wire Wire Line
+	18050 4500 17150 4500
+Wire Wire Line
+	17150 4500 17150 3550
+Wire Wire Line
+	17150 3550 18000 3550
+Wire Wire Line
+	18050 4400 17050 4400
+Wire Wire Line
+	17050 4400 17050 3150
+Wire Wire Line
+	18050 4300 17250 4300
+Text Label 17250 4600 0    50   ~ 0
+16U2_RESETn
+Text Label 17250 4300 0    50   ~ 0
+328P_RESETn
+Text Label 17250 4400 0    50   ~ 0
+16U2_PB4
+Text Label 17250 3450 0    50   ~ 0
+16U2_SCLK
+Text Label 17250 3550 0    50   ~ 0
+16U2_HDR_RESETn
+Wire Wire Line
+	15000 4550 15000 2850
+Wire Wire Line
+	14400 4650 15400 4650
+Wire Wire Line
+	15400 4650 15400 2850
+$Comp
+L arduinouno:LO_L29K-H2K1-24-Z D5
+U 1 1 5B9F2141
+P 15000 2700
+F 0 "D5" V 14850 2700 50  0000 L CNN
+F 1 "ORANGE" H 14850 2850 50  0000 L CNN
+F 2 "arduinouno:LED_0603" H 15000 2250 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493882/LO%20L29K.pdf" H 15000 2450 50  0001 C CNN
+F 4 "475-2740-1-ND" H 15000 2350 50  0001 C CNN "Digikey"
+	1    15000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:LO_L29K-H2K1-24-Z D6
+U 1 1 5B9F2258
+P 15400 2700
+F 0 "D6" V 15250 2700 50  0000 L CNN
+F 1 "ORANGE" H 15250 2850 50  0000 L CNN
+F 2 "arduinouno:LED_0603" H 15400 2250 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493882/LO%20L29K.pdf" H 15400 2450 50  0001 C CNN
+F 4 "475-2740-1-ND" H 15400 2350 50  0001 C CNN "Digikey"
+	1    15400 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:RC0805FR-07560RL R19
+U 1 1 5BA06699
+P 15000 1950
+F 0 "R19" V 14800 1950 50  0000 L CNN
+F 1 "560R" V 15200 1950 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 15000 1550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 14950 1750 50  0001 C CNN
+F 4 "311-560CRCT-ND" H 15000 1650 50  0001 C CNN "Digikey"
+	1    15000 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:RC0805FR-07560RL R20
+U 1 1 5BA067EC
+P 15400 1950
+F 0 "R20" V 15200 1950 50  0000 L CNN
+F 1 "560R" V 15600 1950 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 15400 1550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 15350 1750 50  0001 C CNN
+F 4 "311-560CRCT-ND" H 15400 1650 50  0001 C CNN "Digikey"
+	1    15400 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15000 2450 15000 2200
+Wire Wire Line
+	15400 2450 15400 2200
+$Comp
+L arduinouno:+5V_3V3 #PWR0155
+U 1 1 5BA56263
+P 15000 1550
+F 0 "#PWR0155" H 15000 1250 50  0001 C CNN
+F 1 "+5V_3V3" H 15000 1700 50  0000 C CNN
+F 2 "" H 15000 1550 50  0001 C CNN
+F 3 "" H 15000 1550 50  0001 C CNN
+	1    15000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0156
+U 1 1 5BA562EE
+P 15400 1550
+F 0 "#PWR0156" H 15400 1250 50  0001 C CNN
+F 1 "+5V_3V3" H 15400 1700 50  0000 C CNN
+F 2 "" H 15400 1550 50  0001 C CNN
+F 3 "" H 15400 1550 50  0001 C CNN
+	1    15400 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 1550 15000 1700
+Wire Wire Line
+	15400 1550 15400 1700
+$Comp
+L arduinouno:LG_L29K-G2J1-24-Z D3
+U 1 1 5BA94C50
+P 2800 10500
+F 0 "D3" V 2650 10500 50  0000 L CNN
+F 1 "GREEN" H 2795 10628 50  0000 L CNN
+F 2 "arduinouno:LED_0603" H 2800 10050 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 2800 10250 50  0001 C CNN
+F 4 "475-2709-1-ND" H 2800 10150 50  0001 C CNN "Digikey"
+	1    2800 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0157
+U 1 1 5BA94F1F
+P 2800 9550
+F 0 "#PWR0157" H 2800 9250 50  0001 C CNN
+F 1 "+5V_3V3" H 2800 9700 50  0000 C CNN
+F 2 "" H 2800 9550 50  0001 C CNN
+F 3 "" H 2800 9550 50  0001 C CNN
+	1    2800 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805FR-07560RL R15
+U 1 1 5BA950B1
+P 2800 9900
+F 0 "R15" V 2600 9900 50  0000 L CNN
+F 1 "560R" V 3000 9900 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 2800 9500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 2750 9700 50  0001 C CNN
+F 4 "311-560CRCT-ND" H 2800 9600 50  0001 C CNN "Digikey"
+	1    2800 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:GND #PWR0158
+U 1 1 5BA953D7
+P 2800 10800
+F 0 "#PWR0158" H 2800 10550 50  0001 C CNN
+F 1 "GND" H 2800 10650 50  0001 C CNN
+F 2 "" H 2800 10800 50  0001 C CNN
+F 3 "" H 2800 10800 50  0001 C CNN
+	1    2800 10800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 9550 2800 9650
+Wire Wire Line
+	2800 10150 2800 10250
+Wire Wire Line
+	2800 10650 2800 10800
+$Comp
+L arduinouno:SN74AHC1G09DBVR U5
+U 1 1 5BAE7146
+P 6200 10600
+F 0 "U5" H 6300 10750 50  0000 L CNN
+F 1 "SN74AHC1G09DBVR" H 6300 10400 50  0000 L CNN
+F 2 "arduinouno:DBV_SOT23_5" H 6200 9600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf" H 6200 9800 50  0001 C CNN
+F 4 "296-29202-1-ND" H 6200 9700 50  0001 C CNN "Digikey"
+	1    6200 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:LO_L29K-H2K1-24-Z D4
+U 1 1 5BAE79F9
+P 6800 10300
+F 0 "D4" V 6650 10300 50  0000 L CNN
+F 1 "ORANGE" H 6750 10450 50  0000 L CNN
+F 2 "arduinouno:LED_0603" H 6800 9850 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493882/LO%20L29K.pdf" H 6800 10050 50  0001 C CNN
+F 4 "475-2740-1-ND" H 6800 9950 50  0001 C CNN "Digikey"
+	1    6800 10300
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:RC0805FR-07560RL R16
+U 1 1 5BAE7A00
+P 6800 9700
+F 0 "R16" V 6600 9700 50  0000 L CNN
+F 1 "560R" V 7000 9700 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 6800 9300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 6750 9500 50  0001 C CNN
+F 4 "311-560CRCT-ND" H 6800 9400 50  0001 C CNN "Digikey"
+	1    6800 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 10050 6800 9950
+$Comp
+L arduinouno:+5V_3V3 #PWR0159
+U 1 1 5BAE7A07
+P 6800 9300
+F 0 "#PWR0159" H 6800 9000 50  0001 C CNN
+F 1 "+5V_3V3" H 6800 9450 50  0000 C CNN
+F 2 "" H 6800 9300 50  0001 C CNN
+F 3 "" H 6800 9300 50  0001 C CNN
+	1    6800 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 9300 6800 9450
+$Comp
+L arduinouno:+5V_3V3 #PWR0160
+U 1 1 5BAFC625
+P 6200 9750
+F 0 "#PWR0160" H 6200 9450 50  0001 C CNN
+F 1 "+5V_3V3" H 6200 9900 50  0000 C CNN
+F 2 "" H 6200 9750 50  0001 C CNN
+F 3 "" H 6200 9750 50  0001 C CNN
+	1    6200 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0161
+U 1 1 5BAFC6BA
+P 6200 10900
+F 0 "#PWR0161" H 6200 10650 50  0001 C CNN
+F 1 "GND" H 6200 10750 50  0001 C CNN
+F 2 "" H 6200 10900 50  0001 C CNN
+F 3 "" H 6200 10900 50  0001 C CNN
+	1    6200 10900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 10700 5800 10700
+Wire Wire Line
+	5900 10500 5800 10500
+Wire Wire Line
+	5800 10500 5800 10700
+Connection ~ 5800 10700
+Wire Wire Line
+	5800 10700 5350 10700
+Wire Wire Line
+	6200 9750 6200 9850
+Wire Wire Line
+	6500 10600 6800 10600
+Wire Wire Line
+	6800 10600 6800 10450
+Text Label 5350 10700 0    50   ~ 0
+SCK
+$Comp
+L arduinouno:C2012X7R1H104K085AA C26
+U 1 1 5BBC191E
+P 6450 10000
+F 0 "C26" V 6350 10000 50  0000 L CNN
+F 1 "100nF" V 6550 10000 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 6450 9550 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 6600 9750 50  0001 C CNN
+F 4 "445-7534-1-ND" H 6450 9650 50  0001 C CNN "Digikey"
+	1    6450 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:GND #PWR0162
+U 1 1 5BBC1924
+P 6450 10150
+F 0 "#PWR0162" H 6450 9900 50  0001 C CNN
+F 1 "GND" H 6450 10000 50  0001 C CNN
+F 2 "" H 6450 10150 50  0001 C CNN
+F 3 "" H 6450 10150 50  0001 C CNN
+	1    6450 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 9850 6200 9850
+Connection ~ 6200 9850
+Wire Wire Line
+	6200 9850 6200 10250
+$Comp
+L arduinouno:TL1963A-33DCQR U6
+U 1 1 5BD8A3CF
+P 10850 6900
+F 0 "U6" H 10600 7250 50  0000 C CNN
+F 1 "TL1963A-33DCQR" H 10850 6600 50  0000 C CNN
+F 2 "arduinouno:DCQ_R-PDSO-G6" H 10850 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl1963a.pdf" H 10850 6500 50  0001 C CNN
+F 4 "296-24534-1-ND" H 10850 6400 50  0001 C CNN "Digikey"
+	1    10850 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 6800 10350 6800
+Wire Wire Line
+	10350 6800 10350 6650
+Wire Wire Line
+	10350 6650 10400 6650
+Wire Wire Line
+	11300 6800 11350 6800
+Wire Wire Line
+	11350 6800 11350 6650
+Wire Wire Line
+	11350 6650 11300 6650
+Wire Wire Line
+	10400 7000 10350 7000
+Wire Wire Line
+	10350 7000 10350 7100
+Wire Wire Line
+	10350 7100 10400 7100
+Wire Wire Line
+	11350 6650 11850 6650
+Connection ~ 11350 6650
+Wire Wire Line
+	10350 6650 9850 6650
+Connection ~ 10350 6650
+$Comp
+L arduinouno:C2012X5R1C106M085AC C28
+U 1 1 5BE02C9B
+P 11850 6850
+F 0 "C28" V 11750 6850 50  0000 L CNN
+F 1 "10uF|16V" V 11950 6850 50  0000 L CNN
+F 2 "arduinouno:C0805x145mm" H 11850 6400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 12000 6600 50  0001 C CNN
+F 4 "445-7645-1-ND" H 11850 6500 50  0001 C CNN "Digikey"
+	1    11850 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11850 6650 11850 6700
+$Comp
+L arduinouno:C2012X5R1C106M085AC C27
+U 1 1 5BE1BC34
+P 9850 6850
+F 0 "C27" V 9750 6850 50  0000 L CNN
+F 1 "10uF|16V" V 9950 6850 50  0000 L CNN
+F 2 "arduinouno:C0805x145mm" H 9850 6400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 10000 6600 50  0001 C CNN
+F 4 "445-7645-1-ND" H 9850 6500 50  0001 C CNN "Digikey"
+	1    9850 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 6650 9850 6700
+Wire Wire Line
+	9850 7000 9850 7050
+Wire Wire Line
+	10350 7100 10350 7150
+Connection ~ 10350 7100
+Wire Wire Line
+	11850 7000 11850 7050
+$Comp
+L arduinouno:GND #PWR0163
+U 1 1 5BE80AB7
+P 9850 7050
+F 0 "#PWR0163" H 9850 6800 50  0001 C CNN
+F 1 "GND" H 9850 6900 50  0001 C CNN
+F 2 "" H 9850 7050 50  0001 C CNN
+F 3 "" H 9850 7050 50  0001 C CNN
+	1    9850 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0164
+U 1 1 5BE80B54
+P 10350 7150
+F 0 "#PWR0164" H 10350 6900 50  0001 C CNN
+F 1 "GND" H 10350 7000 50  0001 C CNN
+F 2 "" H 10350 7150 50  0001 C CNN
+F 3 "" H 10350 7150 50  0001 C CNN
+	1    10350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0165
+U 1 1 5BE80BF1
+P 11850 7050
+F 0 "#PWR0165" H 11850 6800 50  0001 C CNN
+F 1 "GND" H 11850 6900 50  0001 C CNN
+F 2 "" H 11850 7050 50  0001 C CNN
+F 3 "" H 11850 7050 50  0001 C CNN
+	1    11850 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V #PWR0166
+U 1 1 5BE81243
+P 9850 6600
+F 0 "#PWR0166" H 9850 6300 50  0001 C CNN
+F 1 "+5V" H 9850 6750 50  0000 C CNN
+F 2 "" H 9850 6600 50  0001 C CNN
+F 3 "" H 9850 6600 50  0001 C CNN
+	1    9850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+3V3 #PWR0167
+U 1 1 5BE812E0
+P 11850 6600
+F 0 "#PWR0167" H 11850 6300 50  0001 C CNN
+F 1 "+3V3" H 11850 6750 50  0000 C CNN
+F 2 "" H 11850 6600 50  0001 C CNN
+F 3 "" H 11850 6600 50  0001 C CNN
+	1    11850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 6600 11850 6650
+Connection ~ 11850 6650
+Wire Wire Line
+	9850 6600 9850 6650
+Connection ~ 9850 6650
+$Comp
+L arduinouno:RC0805JR-070RL R17
+U 1 1 5BECFAAE
+P 14150 6900
+F 0 "R17" H 14150 7000 50  0000 C CNN
+F 1 "0R" H 14150 6800 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 14150 6500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 14100 6700 50  0001 C CNN
+F 4 "311-0.0ARCT-ND" H 14150 6600 50  0001 C CNN "Digikey"
+	1    14150 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 6900 14450 6900
+Wire Wire Line
+	14450 6900 14450 6850
+Wire Wire Line
+	13900 6900 13850 6900
+Wire Wire Line
+	13850 6900 13850 6850
+$Comp
+L arduinouno:+5V #PWR0168
+U 1 1 5BF04E3A
+P 13850 6850
+F 0 "#PWR0168" H 13850 6550 50  0001 C CNN
+F 1 "+5V" H 13850 7000 50  0000 C CNN
+F 2 "" H 13850 6850 50  0001 C CNN
+F 3 "" H 13850 6850 50  0001 C CNN
+	1    13850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0169
+U 1 1 5BF04ED9
+P 14450 6850
+F 0 "#PWR0169" H 14450 6550 50  0001 C CNN
+F 1 "+5V_3V3" H 14450 7000 50  0000 C CNN
+F 2 "" H 14450 6850 50  0001 C CNN
+F 3 "" H 14450 6850 50  0001 C CNN
+	1    14450 6850
+	1    0    0    -1  
+$EndComp
+Text Label 15550 3450 0    50   ~ 0
+16U2_SCLK_R
+Text Label 15550 3350 0    50   ~ 0
+16U2_MOSI
+Text Label 15550 3250 0    50   ~ 0
+16U2_MISO
+Wire Wire Line
+	12000 2850 12000 2500
+Wire Wire Line
+	12000 2950 12000 2850
+Connection ~ 12000 2850
+$Comp
+L arduinouno:ATMEGA16U2-AU U4
+U 1 1 5B904F48
+P 13200 3950
+F 0 "U4" H 12250 5150 50  0000 C CNN
+F 1 "ATMEGA16U2-AU" H 13900 2750 50  0000 C CNN
+F 2 "arduinouno:QFP-32_8.4x8.4_Pitch0.8mm" H 12200 5000 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 12950 2550 50  0001 C CNN
+F 4 "ATMEGA16U2-AU-ND" H 12100 2450 50  0001 C CNN "Digikey"
+	1    13200 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14400 2850
+NoConn ~ 14400 2950
+Text Label 15550 3150 0    50   ~ 0
+16U2_PB4
+NoConn ~ 14400 3050
+Wire Wire Line
+	17150 3350 14400 3350
+Wire Wire Line
+	17250 3350 18000 3350
+Wire Wire Line
+	17050 3150 14400 3150
+Wire Wire Line
+	18800 3150 17150 3150
+Wire Wire Line
+	16850 3450 18000 3450
+Wire Wire Line
+	16350 3450 14400 3450
+$Comp
+L arduinouno:RC0805FR-07100KL R18
+U 1 1 5C13A251
+P 14600 1950
+F 0 "R18" V 14400 1950 50  0000 L CNN
+F 1 "100K" V 14800 1950 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 14600 1550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 14550 1750 50  0001 C CNN
+F 4 "  311-100KCRCT-ND" H 14600 1650 50  0001 C CNN "Digikey"
+	1    14600 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14600 2200 14600 4350
+Connection ~ 14600 4350
+Wire Wire Line
+	14600 4350 15450 4350
+Wire Wire Line
+	14600 1700 14600 1550
+$Comp
+L arduinouno:+5V_3V3 #PWR0170
+U 1 1 5C1CD444
+P 14600 1550
+F 0 "#PWR0170" H 14600 1250 50  0001 C CNN
+F 1 "+5V_3V3" H 14600 1700 50  0000 C CNN
+F 2 "" H 14600 1550 50  0001 C CNN
+F 3 "" H 14600 1550 50  0001 C CNN
+	1    14600 1550
+	1    0    0    -1  
+$EndComp
+Text Label 14450 4650 0    50   ~ 0
+16U2_RX_LED
+Text Label 14450 4550 0    50   ~ 0
+16U2_TX_LED
+Wire Wire Line
+	14400 4550 15000 4550
+NoConn ~ 14400 3850
+NoConn ~ 14400 3950
+NoConn ~ 14400 4050
+NoConn ~ 14400 4150
+NoConn ~ 14400 4450
+NoConn ~ 14400 3750
+NoConn ~ 14400 3550
+Wire Wire Line
+	12000 4950 11950 4950
+Wire Wire Line
+	11950 4950 11950 5050
+Wire Wire Line
+	11950 5050 12000 5050
+Wire Wire Line
+	11950 5050 11950 5100
+Connection ~ 11950 5050
+$Comp
+L arduinouno:GND #PWR0171
+U 1 1 5C43255C
+P 11950 5100
+F 0 "#PWR0171" H 11950 4850 50  0001 C CNN
+F 1 "GND" H 11950 4950 50  0001 C CNN
+F 2 "" H 11950 5100 50  0001 C CNN
+F 3 "" H 11950 5100 50  0001 C CNN
+	1    11950 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14400 5050
+NoConn ~ 14400 4950
+$Comp
+L arduinouno:C2012X5R1E105K125AA C29
+U 1 1 5C4CBD49
+P 10700 3600
+F 0 "C29" H 10550 3650 50  0000 C CNN
+F 1 "1uF|25V" H 10950 3650 50  0000 C CNN
+F 2 "arduinouno:C0805x95mm" H 10700 3150 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 10850 3350 50  0001 C CNN
+F 4 "445-1419-1-ND" H 10700 3250 50  0001 C CNN "Digikey"
+	1    10700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 3600 12000 3600
+Wire Wire Line
+	10550 3600 10400 3600
+Text Label 11300 3600 0    50   ~ 0
++3V3_16U2_UCAP
+$Comp
+L arduinouno:GND #PWR0172
+U 1 1 5C5633A9
+P 10400 3600
+F 0 "#PWR0172" H 10400 3350 50  0001 C CNN
+F 1 "GND" H 10400 3450 50  0001 C CNN
+F 2 "" H 10400 3600 50  0001 C CNN
+F 3 "" H 10400 3600 50  0001 C CNN
+	1    10400 3600
+	1    0    0    -1  
+$EndComp
+Text Label 11300 2500 0    50   ~ 0
++5_3V3_16U2
+Text Label 10950 8700 0    50   ~ 0
++5_3V3_328P_VCC
+Text Label 10950 9250 0    50   ~ 0
++5_3V3_328P_AVCC
+Wire Wire Line
+	10900 9250 11700 9250
+Wire Wire Line
+	10900 8700 11800 8700
+Text Label 10400 11200 0    50   ~ 0
+328P_16MHZ_XTAL1
+Text Label 10400 10700 0    50   ~ 0
+328P_16MHZ_XTAL2
+Connection ~ 11200 10700
+Connection ~ 11200 11200
+Wire Wire Line
+	11200 10700 11650 10700
+Wire Wire Line
+	11200 11200 11650 11200
+Text Label 10550 4250 0    50   ~ 0
+16U2_16MHZ_XTAL2
+Text Label 10550 4750 0    50   ~ 0
+16U2_16MHZ_XTAL1
+$Comp
+L arduinouno:10118193-0001LF U7
+U 1 1 5BA536DA
+P 3050 4050
+F 0 "U7" V 2550 4300 50  0000 L CNN
+F 1 "10118193-0001LF" H 2850 4300 50  0000 L CNN
+F 2 "arduinouno:10118193" H 3050 2950 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf" H 3075 3150 50  0001 C CNN
+F 4 "609-4616-1-ND" H 3025 3050 50  0001 C CNN "Digikey"
+	1    3050 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L arduinouno:RC0805FR-0722RL R22
+U 1 1 5BA53956
+P 7150 3850
+F 0 "R22" H 6900 3900 50  0000 C CNN
+F 1 "22R" H 7400 3900 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 7150 3450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7100 3650 50  0001 C CNN
+F 4 "311-22.0CRCT-ND" H 7150 3550 50  0001 C CNN "Digikey"
+	1    7150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 3850 7400 3850
+$Comp
+L arduinouno:RC0805FR-0722RL R23
+U 1 1 5BA8319C
+P 7150 4050
+F 0 "R23" H 6900 4100 50  0000 C CNN
+F 1 "22R" H 7400 4100 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 7150 3650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 7100 3850 50  0001 C CNN
+F 4 "311-22.0CRCT-ND" H 7150 3750 50  0001 C CNN "Digikey"
+	1    7150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 4050 7400 4050
+Wire Wire Line
+	2950 4700 2950 4750
+Wire Wire Line
+	2950 4750 3050 4750
+Wire Wire Line
+	3300 4750 3300 4800
+Wire Wire Line
+	3150 4700 3150 4750
+Connection ~ 3150 4750
+Wire Wire Line
+	3150 4750 3300 4750
+Wire Wire Line
+	3050 4700 3050 4750
+Connection ~ 3050 4750
+Wire Wire Line
+	3050 4750 3150 4750
+$Comp
+L arduinouno:GND #PWR0173
+U 1 1 5BB8EF5A
+P 3300 4800
+F 0 "#PWR0173" H 3300 4550 50  0001 C CNN
+F 1 "GND" H 3300 4650 50  0001 C CNN
+F 2 "" H 3300 4800 50  0001 C CNN
+F 3 "" H 3300 4800 50  0001 C CNN
+	1    3300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3400 2950 3350
+Wire Wire Line
+	2950 3350 3050 3350
+Wire Wire Line
+	3050 3400 3050 3350
+Connection ~ 3050 3350
+Wire Wire Line
+	3050 3350 3150 3350
+Wire Wire Line
+	3150 3400 3150 3350
+Connection ~ 3150 3350
+Wire Wire Line
+	3150 3350 3300 3350
+Wire Wire Line
+	3300 3350 3300 3400
+$Comp
+L arduinouno:GND #PWR0174
+U 1 1 5BBF8D0D
+P 3300 3400
+F 0 "#PWR0174" H 3300 3150 50  0001 C CNN
+F 1 "GND" H 3300 3250 50  0001 C CNN
+F 2 "" H 3300 3400 50  0001 C CNN
+F 3 "" H 3300 3400 50  0001 C CNN
+	1    3300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805JR-070RL R21
+U 1 1 5BC7FFD6
+P 4000 4250
+F 0 "R21" H 3750 4300 50  0000 C CNN
+F 1 "0R" H 4200 4300 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 4000 3850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 3950 4050 50  0001 C CNN
+F 4 "311-0.0ARCT-ND" H 4000 3950 50  0001 C CNN "Digikey"
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4250 3750 4250
+Wire Wire Line
+	4250 4250 4500 4250
+Wire Wire Line
+	4500 4250 4500 4450
+$Comp
+L arduinouno:GND #PWR0175
+U 1 1 5BCB7E39
+P 4500 4600
+F 0 "#PWR0175" H 4500 4350 50  0001 C CNN
+F 1 "GND" H 4500 4450 50  0001 C CNN
+F 2 "" H 4500 4600 50  0001 C CNN
+F 3 "" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4450 4500 4450
+Connection ~ 4500 4450
+Wire Wire Line
+	4500 4450 4500 4600
+Wire Wire Line
+	5100 4150 5100 3850
+Connection ~ 5100 3850
+Wire Wire Line
+	5100 3850 3450 3850
+Wire Wire Line
+	5100 4750 5100 4800
+Wire Wire Line
+	5900 4750 5900 4800
+$Comp
+L arduinouno:CG0603MLC-05E Z1
+U 1 1 5BA8325E
+P 5100 4450
+F 0 "Z1" V 5300 4450 50  0000 R CNN
+F 1 "CG0603MLC-05E" V 4900 4450 50  0000 R CNN
+F 2 "arduinouno:R_0603" H 5100 4000 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/MLC.pdf" H 5200 4175 50  0001 C CNN
+F 4 "CG0603MLC-05ECT-ND" H 5100 4075 50  0001 C CNN "Digikey"
+	1    5100 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduinouno:CG0603MLC-05E Z2
+U 1 1 5BAC105B
+P 5900 4450
+F 0 "Z2" V 6100 4450 50  0000 R CNN
+F 1 "CG0603MLC-05E" V 5700 4450 50  0000 R CNN
+F 2 "arduinouno:R_0603" H 5900 4000 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/MLC.pdf" H 6000 4175 50  0001 C CNN
+F 4 "CG0603MLC-05ECT-ND" H 5900 4075 50  0001 C CNN "Digikey"
+	1    5900 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduinouno:GND #PWR0176
+U 1 1 5BB3CB10
+P 5100 4800
+F 0 "#PWR0176" H 5100 4550 50  0001 C CNN
+F 1 "GND" H 5100 4650 50  0001 C CNN
+F 2 "" H 5100 4800 50  0001 C CNN
+F 3 "" H 5100 4800 50  0001 C CNN
+	1    5100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0177
+U 1 1 5BB3CC5F
+P 5900 4800
+F 0 "#PWR0177" H 5900 4550 50  0001 C CNN
+F 1 "GND" H 5900 4650 50  0001 C CNN
+F 2 "" H 5900 4800 50  0001 C CNN
+F 3 "" H 5900 4800 50  0001 C CNN
+	1    5900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3850 6900 3850
+Wire Wire Line
+	3450 4050 5900 4050
+Wire Wire Line
+	5900 4050 5900 4150
+Connection ~ 5900 4050
+Wire Wire Line
+	5900 4050 6900 4050
+Text Label 3650 3850 0    50   ~ 0
+CON_USB_N
+Text Label 3650 4050 0    50   ~ 0
+CON_USB_P
+Text Label 11300 3850 0    50   ~ 0
+USB_N
+Text Label 11300 4050 0    50   ~ 0
+USB_P
+$Comp
+L arduinouno:EEE-1AA101WR C30
+U 1 1 5BBC2A5D
+P 4150 3150
+F 0 "C30" V 4000 3300 50  0000 L CNN
+F 1 "100u|10V" V 4300 3200 50  0000 L CNN
+F 2 "arduinouno:C_ALUM_C_SIZE" H 4150 2650 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 4150 2850 50  0001 C CNN
+F 4 "PCE3867TR-ND" H 4150 2750 50  0001 C CNN "Digikey"
+	1    4150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:EEE-1AA101WR C31
+U 1 1 5BBC2B99
+P 5050 3150
+F 0 "C31" V 4900 3350 50  0000 L CNN
+F 1 "100uF|10V" V 5200 3200 50  0000 L CNN
+F 2 "arduinouno:C_ALUM_C_SIZE" H 5050 2650 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 5050 2850 50  0001 C CNN
+F 4 "PCE3867TR-ND" H 5050 2750 50  0001 C CNN "Digikey"
+	1    5050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:L1210R2R2MDWIT L1
+U 1 1 5BBC326B
+P 4600 2750
+F 0 "L1" H 4600 2850 50  0000 C CNN
+F 1 "2u2|2A" H 4600 2650 50  0000 C CNN
+F 2 "arduinouno:C1210_INDUCTOR" H 4600 2300 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/L1210R2R2MDWIT.pdf" H 4600 2500 50  0001 C CNN
+F 4 "399-9598-1-ND" H 4600 2400 50  0001 C CNN "Digikey"
+	1    4600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3650 3700 3650
+Wire Wire Line
+	3700 3650 3700 2750
+Wire Wire Line
+	3700 2750 4150 2750
+Wire Wire Line
+	4150 2900 4150 2750
+Connection ~ 4150 2750
+Wire Wire Line
+	4150 2750 4250 2750
+Wire Wire Line
+	5050 2900 5050 2750
+Wire Wire Line
+	5050 2750 4950 2750
+Wire Wire Line
+	5050 2750 5050 2700
+Connection ~ 5050 2750
+$Comp
+L arduinouno:+5V #PWR0178
+U 1 1 5BC448C9
+P 5050 2700
+F 0 "#PWR0178" H 5050 2400 50  0001 C CNN
+F 1 "+5V" H 5050 2850 50  0000 C CNN
+F 2 "" H 5050 2700 50  0001 C CNN
+F 3 "" H 5050 2700 50  0001 C CNN
+	1    5050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3350 4150 3400
+Wire Wire Line
+	5050 3350 5050 3400
+$Comp
+L arduinouno:GND #PWR0179
+U 1 1 5BCA78E5
+P 4150 3400
+F 0 "#PWR0179" H 4150 3150 50  0001 C CNN
+F 1 "GND" H 4150 3250 50  0001 C CNN
+F 2 "" H 4150 3400 50  0001 C CNN
+F 3 "" H 4150 3400 50  0001 C CNN
+	1    4150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:GND #PWR0180
+U 1 1 5BCA7998
+P 5050 3400
+F 0 "#PWR0180" H 5050 3150 50  0001 C CNN
+F 1 "GND" H 5050 3250 50  0001 C CNN
+F 2 "" H 5050 3400 50  0001 C CNN
+F 3 "" H 5050 3400 50  0001 C CNN
+	1    5050 3400
+	1    0    0    -1  
+$EndComp
+Text Label 3700 2750 0    50   ~ 0
++5V_USB
+$Comp
+L arduinouno:1825910-6 SW2
+U 1 1 5BCEC79F
+P 13400 14000
+F 0 "SW2" H 13400 14200 50  0000 C CNN
+F 1 "1825910-6" H 13400 13800 50  0000 C CNN
+F 2 "arduinouno:1825910-6" H 13400 13500 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 13400 13700 50  0001 C CNN
+F 4 "450-1650-ND" H 13400 14200 50  0001 C CNN "Digikey"
+	1    13400 14000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 13900 13050 13900
+Wire Wire Line
+	13050 13900 13050 14100
+Wire Wire Line
+	13100 14100 13050 14100
+Connection ~ 13050 14100
+Wire Wire Line
+	13050 14100 13050 14300
+$Comp
+L arduinouno:GND #PWR0181
+U 1 1 5BCEC7AA
+P 13050 14300
+F 0 "#PWR0181" H 13050 14050 50  0001 C CNN
+F 1 "GND" H 13050 14150 50  0001 C CNN
+F 2 "" H 13050 14300 50  0001 C CNN
+F 3 "" H 13050 14300 50  0001 C CNN
+	1    13050 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 14100 13750 14100
+Wire Wire Line
+	13750 14100 13750 13900
+Wire Wire Line
+	13750 13900 13700 13900
+$Comp
+L arduinouno:RC0805FR-0710KL R24
+U 1 1 5BCEC7B4
+P 14450 13550
+F 0 "R24" V 14404 13628 50  0000 L CNN
+F 1 "10k" V 14495 13628 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 14450 13150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 14400 13350 50  0001 C CNN
+F 4 "311-10.0KCRCT-ND" H 14450 13250 50  0001 C CNN "Digikey"
+	1    14450 13550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14450 13800 14450 13900
+$Comp
+L arduinouno:+5V_3V3 #PWR0182
+U 1 1 5BCEC7CA
+P 14450 13300
+F 0 "#PWR0182" H 14450 13000 50  0001 C CNN
+F 1 "+5V_3V3" H 14450 13450 50  0000 C CNN
+F 2 "" H 14450 13300 50  0001 C CNN
+F 3 "" H 14450 13300 50  0001 C CNN
+	1    14450 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:C2012X7R1H104K085AA C32
+U 1 1 5BCEC7D9
+P 15450 14150
+F 0 "C32" V 15350 14150 50  0000 L CNN
+F 1 "100nF" V 15550 14150 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 15450 14200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 15600 13900 50  0001 C CNN
+F 4 "445-7534-1-ND" H 15450 13800 50  0001 C CNN "Digikey"
+	1    15450 14150
+	0    1    1    0   
+$EndComp
+Connection ~ 15450 13900
+Wire Wire Line
+	15450 13900 16200 13900
+$Comp
+L arduinouno:GND #PWR0183
+U 1 1 5BCEC7E1
+P 15450 14350
+F 0 "#PWR0183" H 15450 14100 50  0001 C CNN
+F 1 "GND" H 15450 14200 50  0001 C CNN
+F 2 "" H 15450 14350 50  0001 C CNN
+F 3 "" H 15450 14350 50  0001 C CNN
+	1    15450 14350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 13900 15450 14000
+Wire Wire Line
+	15450 14300 15450 14350
+Wire Wire Line
+	13750 13900 14450 13900
+Connection ~ 13750 13900
+Connection ~ 14450 13900
+$Comp
+L arduinouno:GND #PWR0184
+U 1 1 5BCEC7EF
+P 16600 14100
+F 0 "#PWR0184" H 16600 13850 50  0001 C CNN
+F 1 "GND" H 16600 13950 50  0001 C CNN
+F 2 "" H 16600 14100 50  0001 C CNN
+F 3 "" H 16600 14100 50  0001 C CNN
+	1    16600 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:SN74AHC1G09DBVR U8
+U 1 1 5BCEC803
+P 16600 13800
+F 0 "U8" H 16700 13950 50  0000 L CNN
+F 1 "SN74AHC1G09DBVR" H 16700 13600 50  0000 L CNN
+F 2 "arduinouno:DBV_SOT23_5" H 16600 12800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf" H 16600 13000 50  0001 C CNN
+F 4 "296-29202-1-ND" H 16600 12900 50  0001 C CNN "Digikey"
+	1    16600 13800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 13700 16200 13700
+$Comp
+L arduinouno:C2012X7R1H104K085AA C33
+U 1 1 5BCEC80E
+P 17050 13350
+F 0 "C33" V 16950 13350 50  0000 L CNN
+F 1 "100nF" V 17150 13350 50  0000 L CNN
+F 2 "arduinouno:C0805x95mm" H 17050 13400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 17200 13100 50  0001 C CNN
+F 4 "445-7534-1-ND" H 17050 13000 50  0001 C CNN "Digikey"
+	1    17050 13350
+	0    1    1    0   
+$EndComp
+$Comp
+L arduinouno:GND #PWR0185
+U 1 1 5BCEC814
+P 17050 13500
+F 0 "#PWR0185" H 17050 13250 50  0001 C CNN
+F 1 "GND" H 17050 13350 50  0001 C CNN
+F 2 "" H 17050 13500 50  0001 C CNN
+F 3 "" H 17050 13500 50  0001 C CNN
+	1    17050 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V_3V3 #PWR0186
+U 1 1 5BCEC81A
+P 16600 13100
+F 0 "#PWR0186" H 16600 12800 50  0001 C CNN
+F 1 "+5V_3V3" H 16600 13250 50  0000 C CNN
+F 2 "" H 16600 13100 50  0001 C CNN
+F 3 "" H 16600 13100 50  0001 C CNN
+	1    16600 13100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 13100 16600 13150
+Wire Wire Line
+	17050 13200 17050 13150
+Wire Wire Line
+	17050 13150 16600 13150
+Connection ~ 16600 13150
+Wire Wire Line
+	16600 13150 16600 13450
+Wire Wire Line
+	16900 13800 16950 13800
+Text Label 13750 13900 0    50   ~ 0
+USER_BUTTON
+Text Label 15450 13900 0    50   ~ 0
+USER_BUTTON_BUF
+Text Label 17700 13800 0    50   ~ 0
+IO8
+Wire Wire Line
+	14450 13900 14750 13900
+Wire Wire Line
+	16200 13700 16200 13900
+Connection ~ 16200 13900
+Wire Wire Line
+	16200 13900 16300 13900
+Wire Wire Line
+	15250 13900 15450 13900
+$Comp
+L arduinouno:RC0805FR-0722RL R25
+U 1 1 5BCEC7C2
+P 15000 13900
+F 0 "R25" H 14750 13950 50  0000 C CNN
+F 1 "22R" H 15250 13950 50  0000 C CNN
+F 2 "arduinouno:R0805x60mm" H 15000 13500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 14950 13700 50  0001 C CNN
+F 4 "311-22.0CRCT-ND" H 15000 13600 50  0001 C CNN "Digikey"
+	1    15000 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:RC0805FR-07560RL R26
+U 1 1 5BDCC627
+P 17200 13800
+F 0 "R26" H 16900 13850 50  0000 L CNN
+F 1 "560R" H 17350 13850 50  0000 L CNN
+F 2 "arduinouno:R0805x60mm" H 17200 13400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 17150 13600 50  0001 C CNN
+F 4 "311-560CRCT-ND" H 17200 13500 50  0001 C CNN "Digikey"
+	1    17200 13800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 13800 17700 13800
+$Comp
+L arduinouno:PAD_WITH_HOLE_4mmx1.5mm J2
+U 1 1 5BE3F4BF
+P 7150 6650
+F 0 "J2" H 7312 6650 50  0000 L CNN
+F 1 "PAD_WITH_HOLE_4mmx1.5mm" H 7200 6800 50  0001 C CNN
+F 2 "arduinouno:PAD_WITH_HOLE_4mmx1.5mm" H 7200 6400 50  0001 C CNN
+F 3 "" H 7150 6650 50  0001 C CNN
+	1    7150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:PAD_WITH_HOLE_4mmx1.5mm J8
+U 1 1 5BEAE4FC
+P 7150 7000
+F 0 "J8" H 7312 7000 50  0000 L CNN
+F 1 "PAD_WITH_HOLE_4mmx1.5mm" H 7200 7150 50  0001 C CNN
+F 2 "arduinouno:PAD_WITH_HOLE_4mmx1.5mm" H 7200 6750 50  0001 C CNN
+F 3 "" H 7150 7000 50  0001 C CNN
+	1    7150 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 6650 6900 6650
+Wire Wire Line
+	6900 6650 6900 6550
+Wire Wire Line
+	7000 7000 6900 7000
+Wire Wire Line
+	6900 7000 6900 7100
+$Comp
+L arduinouno:GND #PWR0187
+U 1 1 5BEF9402
+P 6900 7100
+F 0 "#PWR0187" H 6900 6850 50  0001 C CNN
+F 1 "GND" H 6900 6950 50  0001 C CNN
+F 2 "" H 6900 7100 50  0001 C CNN
+F 3 "" H 6900 7100 50  0001 C CNN
+	1    6900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:+5V #PWR0188
+U 1 1 5BEF9DDC
+P 6900 6550
+F 0 "#PWR0188" H 6900 6250 50  0001 C CNN
+F 1 "+5V" H 6900 6700 50  0000 C CNN
+F 2 "" H 6900 6550 50  0001 C CNN
+F 3 "" H 6900 6550 50  0001 C CNN
+	1    6900 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:FID_1MM FID1
+U 1 1 5BF2254F
+P 20300 9000
+F 0 "FID1" H 20200 8850 50  0000 L CNN
+F 1 "FID_1MM" H 20300 8900 50  0001 C CNN
+F 2 "arduinouno:FID_40x120M" H 20300 8800 50  0001 C CNN
+F 3 "" H 20300 9000 50  0001 C CNN
+	1    20300 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:FID_1MM FID2
+U 1 1 5BF22763
+P 20550 9000
+F 0 "FID2" H 20450 8850 50  0000 L CNN
+F 1 "FID_1MM" H 20550 8900 50  0001 C CNN
+F 2 "arduinouno:FID_40x120M" H 20550 8800 50  0001 C CNN
+F 3 "" H 20550 9000 50  0001 C CNN
+	1    20550 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:FID_1MM FID3
+U 1 1 5BF22832
+P 20800 9000
+F 0 "FID3" H 20700 8850 50  0000 L CNN
+F 1 "FID_1MM" H 20800 8900 50  0001 C CNN
+F 2 "arduinouno:FID_40x120M" H 20800 8800 50  0001 C CNN
+F 3 "" H 20800 9000 50  0001 C CNN
+	1    20800 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:FID_1MM FID4
+U 1 1 5BF22905
+P 21050 9000
+F 0 "FID4" H 20950 8850 50  0000 L CNN
+F 1 "FID_1MM" H 21050 8900 50  0001 C CNN
+F 2 "arduinouno:FID_40x120M" H 21050 8800 50  0001 C CNN
+F 3 "" H 21050 9000 50  0001 C CNN
+	1    21050 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:MH_7.4MMCx3.2MMD MH1
+U 1 1 5BF97BE5
+P 20250 7850
+F 0 "MH1" H 20300 7750 50  0000 L CNN
+F 1 "MH_7.4MMCx3.2MMD" H 20300 7700 50  0001 C CNN
+F 2 "arduinouno:MH_7.4MMCx3.2MMD" H 20250 7600 50  0001 C CNN
+F 3 "" H 20250 7850 50  0001 C CNN
+	1    20250 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:MH_7.4MMCx3.2MMD MH2
+U 1 1 5BF97E38
+P 20650 7850
+F 0 "MH2" H 20700 7750 50  0000 L CNN
+F 1 "MH_7.4MMCx3.2MMD" H 20700 7700 50  0001 C CNN
+F 2 "arduinouno:MH_7.4MMCx3.2MMD" H 20650 7600 50  0001 C CNN
+F 3 "" H 20650 7850 50  0001 C CNN
+	1    20650 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:MH_7.4MMCx3.2MMD MH3
+U 1 1 5BF97F14
+P 21050 7850
+F 0 "MH3" H 21100 7750 50  0000 L CNN
+F 1 "MH_7.4MMCx3.2MMD" H 21100 7700 50  0001 C CNN
+F 2 "arduinouno:MH_7.4MMCx3.2MMD" H 21050 7600 50  0001 C CNN
+F 3 "" H 21050 7850 50  0001 C CNN
+	1    21050 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:MH_7.4MMNCx3.2MMD MH4
+U 1 1 5BF98074
+P 21450 7850
+F 0 "MH4" H 21500 7750 50  0000 L CNN
+F 1 "MH_7.4MMNCx3.2MMD" H 21500 7700 50  0001 C CNN
+F 2 "arduinouno:MH_7.4MMCx3.2MMD_NON_COPPER_NPTH" H 21450 7600 50  0001 C CNN
+F 3 "" H 21450 7950 50  0001 C CNN
+	1    21450 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20250 8050 20250 8100
+$Comp
+L arduinouno:GND #PWR0189
+U 1 1 5C184163
+P 20250 8150
+F 0 "#PWR0189" H 20250 7900 50  0001 C CNN
+F 1 "GND" H 20250 8000 50  0001 C CNN
+F 2 "" H 20250 8150 50  0001 C CNN
+F 3 "" H 20250 8150 50  0001 C CNN
+	1    20250 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20250 8100 20650 8100
+Wire Wire Line
+	21050 8100 21050 8050
+Connection ~ 20250 8100
+Wire Wire Line
+	20250 8100 20250 8150
+Wire Wire Line
+	20650 8050 20650 8100
+Connection ~ 20650 8100
+Wire Wire Line
+	20650 8100 21050 8100
+$Comp
+L arduinouno:4828-3004-CP SCKT1
+U 1 1 5C2C5CD3
+P 20700 6500
+F 0 "SCKT1" H 20550 6750 50  0000 L CNN
+F 1 "4828-3004-CP" H 20650 6200 50  0001 C CNN
+F 2 "arduinouno:28DIP_7.62MM_SCKT" H 20650 5900 50  0001 C CNN
+F 3 "http://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf" H 20500 6100 50  0001 C CNN
+F 4 "3M5480-ND" H 20750 6000 50  0001 C CNN "Digikey"
+	1    20700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:QPC02SXGN-RC LINK2
+U 1 1 5C316277
+P 19150 6350
+F 0 "LINK2" H 19050 6200 50  0000 L CNN
+F 1 "QPC02SXGN-RC" H 19150 5950 50  0001 C CNN
+F 2 "" H 19150 6350 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11510.pdf" H 19200 5850 50  0001 C CNN
+F 4 "S9337-ND" H 19150 5750 50  0001 C CNN "Digikey"
+	1    19150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduinouno:QPC02SXGN-RC LINK1
+U 1 1 5C316418
+P 18750 4400
+F 0 "LINK1" H 18650 4250 50  0000 L CNN
+F 1 "QPC02SXGN-RC" H 18750 4000 50  0001 C CNN
+F 2 "" H 18750 4400 50  0001 C CNN
+F 3 "https://drawings-pdf.s3.amazonaws.com/11510.pdf" H 18800 3900 50  0001 C CNN
+F 4 "S9337-ND" H 18750 3800 50  0001 C CNN "Digikey"
+	1    18750 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,9 @@
+(module MH_7.4MMCx3.2MMD (layer F.Cu) (tedit 5B9CAB1E)
+  (fp_text reference REF** (at 0 -5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MH_7.4MMCx3.2MMD (at 0 4.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7.4 7.4) (drill 3.2) (layers *.Cu *.Mask))
+)

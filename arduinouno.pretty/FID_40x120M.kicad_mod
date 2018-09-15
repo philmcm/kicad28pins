@@ -1,0 +1,10 @@
+(module FID_40x120M (layer F.Cu) (tedit 5B9CA817)
+  (fp_text reference REF** (at 0 -2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value FID_40x120M (at 0 2.25) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 1.016) (solder_paste_margin -1.016))
+)

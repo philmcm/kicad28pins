@@ -2,24 +2,24 @@
 <export version="D">
   <design>
     <source>/Users/phil/Documents/Kicad/arduinouno/arduinouno.sch</source>
-    <date>Saturday, 15 September 2018 at 06:27:27 pm</date>
+    <date>Sunday, 16 September 2018 at 09:47:21 pm</date>
     <tool>Eeschema (5.0.0-3-g5ebb6b6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>28 Pins Project (Arduino Uno)</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>V1I1</rev>
+        <date>2018-09-16</date>
         <source>arduinouno.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
+        <comment number="3" value="Layout by Phil McMillan in KiCad v5.0"/>
+        <comment number="4" value="Design by FEDEVEL Academy"/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="U3">
+    <comp ref="U1">
       <value>ATMEGA328P-PU</value>
       <footprint>arduinouno:28PIN_PDIP_7.62mm</footprint>
       <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589967</datasheet>
@@ -30,7 +30,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8FB8F7</tstamp>
     </comp>
-    <comp ref="J5">
+    <comp ref="J4">
       <value>M20-7821046</value>
       <footprint>arduinouno:10P_Header_Female_2.54mm</footprint>
       <datasheet>https://cdn.harwin.com/pdfs/M20-782.pdf</datasheet>
@@ -41,7 +41,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B927A12</tstamp>
     </comp>
-    <comp ref="J7">
+    <comp ref="J3">
       <value>M20-7820842</value>
       <footprint>arduinouno:8P_Header_Female_2.54mm</footprint>
       <datasheet>https://cdn.harwin.com/pdfs/M20-782.pdf</datasheet>
@@ -52,7 +52,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B927EA2</tstamp>
     </comp>
-    <comp ref="J6">
+    <comp ref="J2">
       <value>M20-7820646</value>
       <footprint>arduinouno:6P_Header_Female_2.54mm</footprint>
       <datasheet>https://cdn.harwin.com/pdfs/M20-782.pdf</datasheet>
@@ -63,7 +63,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B928126</tstamp>
     </comp>
-    <comp ref="C18">
+    <comp ref="C20">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -74,7 +74,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B93CA33</tstamp>
     </comp>
-    <comp ref="C13">
+    <comp ref="C19">
       <value>10uF|16V</value>
       <footprint>arduinouno:C0805x145mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -96,7 +96,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B93F4D5</tstamp>
     </comp>
-    <comp ref="C19">
+    <comp ref="C23">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -107,7 +107,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B945E0D</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C22">
       <value>10uF|16V</value>
       <footprint>arduinouno:C0805x145mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -129,7 +129,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B945E71</tstamp>
     </comp>
-    <comp ref="C20">
+    <comp ref="C24">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -151,7 +151,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B970DCD</tstamp>
     </comp>
-    <comp ref="C11">
+    <comp ref="C25">
       <value>18pF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf</datasheet>
@@ -162,7 +162,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B970E6C</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C27">
       <value>18pF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf</datasheet>
@@ -173,7 +173,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B970EF9</tstamp>
     </comp>
-    <comp ref="R8">
+    <comp ref="R16">
       <value>1M</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -195,7 +195,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B94F34D</tstamp>
     </comp>
-    <comp ref="C4">
+    <comp ref="C14">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -206,7 +206,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B953F50</tstamp>
     </comp>
-    <comp ref="C5">
+    <comp ref="C15">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -217,7 +217,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B95A992</tstamp>
     </comp>
-    <comp ref="C7">
+    <comp ref="C16">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -228,7 +228,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9639FE</tstamp>
     </comp>
-    <comp ref="C8">
+    <comp ref="C34">
       <value>10uF|16V</value>
       <footprint>arduinouno:C0805x145mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -250,7 +250,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B96A05E</tstamp>
     </comp>
-    <comp ref="C15">
+    <comp ref="C9">
       <value>18pF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf</datasheet>
@@ -261,7 +261,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B96A065</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C10">
       <value>18pF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/C0805C180J1GACTU.pdf</datasheet>
@@ -294,7 +294,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B98354B</tstamp>
     </comp>
-    <comp ref="C9">
+    <comp ref="C3">
       <value>10uF|16V</value>
       <footprint>arduinouno:C0805x145mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -305,7 +305,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9839B3</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C4">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -316,7 +316,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B983BC3</tstamp>
     </comp>
-    <comp ref="C17">
+    <comp ref="C5">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -327,7 +327,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B983D68</tstamp>
     </comp>
-    <comp ref="C21">
+    <comp ref="C6">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -338,7 +338,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B983E38</tstamp>
     </comp>
-    <comp ref="J4">
+    <comp ref="J5">
       <value>67997-106HLF</value>
       <footprint>arduinouno:HDR_2x3_2.54mm</footprint>
       <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</datasheet>
@@ -349,7 +349,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B962D53</tstamp>
     </comp>
-    <comp ref="C25">
+    <comp ref="C17">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -360,7 +360,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B98989C</tstamp>
     </comp>
-    <comp ref="C22">
+    <comp ref="C21">
       <value>10uF|16V</value>
       <footprint>arduinouno:C0805x145mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -371,7 +371,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B98F213</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R13">
       <value>22R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -382,7 +382,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA581D0</tstamp>
     </comp>
-    <comp ref="R12">
+    <comp ref="R10">
       <value>1k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -393,7 +393,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAB4707</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R11">
       <value>1k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -404,7 +404,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAF5814</tstamp>
     </comp>
-    <comp ref="J3">
+    <comp ref="J6">
       <value>67997-106HLF</value>
       <footprint>arduinouno:HDR_2x3_2.54mm</footprint>
       <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</datasheet>
@@ -415,7 +415,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB3D513</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R5">
       <value>22R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -426,7 +426,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB3D5C6</tstamp>
     </comp>
-    <comp ref="C23">
+    <comp ref="C8">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -448,7 +448,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B99299D</tstamp>
     </comp>
-    <comp ref="R3">
+    <comp ref="R20">
       <value>10k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -459,7 +459,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9CA074</tstamp>
     </comp>
-    <comp ref="D2">
+    <comp ref="D6">
       <value>BAT54HT1G</value>
       <footprint>arduinouno:SOD323</footprint>
       <datasheet>http://www.onsemi.com/pub/Collateral/BAT54HT1-D.PDF</datasheet>
@@ -470,7 +470,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9CA4E4</tstamp>
     </comp>
-    <comp ref="R4">
+    <comp ref="R24">
       <value>22R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -481,7 +481,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9CA685</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C32">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -492,7 +492,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA12920</tstamp>
     </comp>
-    <comp ref="R5">
+    <comp ref="R18">
       <value>10k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -503,7 +503,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAA04F3</tstamp>
     </comp>
-    <comp ref="U2">
+    <comp ref="U6">
       <value>SN74AHC1G09DBVR</value>
       <footprint>arduinouno:DBV_SOT23_5</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf</datasheet>
@@ -514,7 +514,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA934C0</tstamp>
     </comp>
-    <comp ref="C6">
+    <comp ref="C28">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -525,7 +525,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAE1B36</tstamp>
     </comp>
-    <comp ref="R6">
+    <comp ref="R14">
       <value>10k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -547,7 +547,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC514AC</tstamp>
     </comp>
-    <comp ref="C24">
+    <comp ref="C11">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -558,7 +558,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC53676</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R12">
       <value>1k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -569,7 +569,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC53F15</tstamp>
     </comp>
-    <comp ref="R1">
+    <comp ref="R19">
       <value>10k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -580,7 +580,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD32F50</tstamp>
     </comp>
-    <comp ref="D1">
+    <comp ref="D5">
       <value>BAT54HT1G</value>
       <footprint>arduinouno:SOD323</footprint>
       <datasheet>http://www.onsemi.com/pub/Collateral/BAT54HT1-D.PDF</datasheet>
@@ -591,7 +591,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD32F57</tstamp>
     </comp>
-    <comp ref="R2">
+    <comp ref="R23">
       <value>22R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -602,7 +602,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD32F5E</tstamp>
     </comp>
-    <comp ref="C1">
+    <comp ref="C31">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -613,7 +613,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD32F75</tstamp>
     </comp>
-    <comp ref="U1">
+    <comp ref="U5">
       <value>SN74AHC1G09DBVR</value>
       <footprint>arduinouno:DBV_SOT23_5</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf</datasheet>
@@ -624,7 +624,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD32F9E</tstamp>
     </comp>
-    <comp ref="C2">
+    <comp ref="C30">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -635,7 +635,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD32FA9</tstamp>
     </comp>
-    <comp ref="R7">
+    <comp ref="R4">
       <value>10k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -646,7 +646,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD57A80</tstamp>
     </comp>
-    <comp ref="JP2">
+    <comp ref="JP3">
       <value>68001-204HLF</value>
       <footprint>arduinouno:4P_Header_2.54mm</footprint>
       <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf</datasheet>
@@ -657,7 +657,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9D8F53</tstamp>
     </comp>
-    <comp ref="D5">
+    <comp ref="D3">
       <value>ORANGE</value>
       <footprint>arduinouno:LED_0603</footprint>
       <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2493882/LO%20L29K.pdf</datasheet>
@@ -668,7 +668,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9F2141</tstamp>
     </comp>
-    <comp ref="D6">
+    <comp ref="D4">
       <value>ORANGE</value>
       <footprint>arduinouno:LED_0603</footprint>
       <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2493882/LO%20L29K.pdf</datasheet>
@@ -679,7 +679,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9F2258</tstamp>
     </comp>
-    <comp ref="R19">
+    <comp ref="R2">
       <value>560R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -690,7 +690,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA06699</tstamp>
     </comp>
-    <comp ref="R20">
+    <comp ref="R3">
       <value>560R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -701,7 +701,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA067EC</tstamp>
     </comp>
-    <comp ref="D3">
+    <comp ref="D1">
       <value>GREEN</value>
       <footprint>arduinouno:LED_0603</footprint>
       <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf</datasheet>
@@ -712,7 +712,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA94C50</tstamp>
     </comp>
-    <comp ref="R15">
+    <comp ref="R17">
       <value>560R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -723,7 +723,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA950B1</tstamp>
     </comp>
-    <comp ref="U5">
+    <comp ref="U4">
       <value>SN74AHC1G09DBVR</value>
       <footprint>arduinouno:DBV_SOT23_5</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf</datasheet>
@@ -734,7 +734,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAE7146</tstamp>
     </comp>
-    <comp ref="D4">
+    <comp ref="D2">
       <value>ORANGE</value>
       <footprint>arduinouno:LED_0603</footprint>
       <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2493882/LO%20L29K.pdf</datasheet>
@@ -745,7 +745,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAE79F9</tstamp>
     </comp>
-    <comp ref="R16">
+    <comp ref="R15">
       <value>560R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -767,7 +767,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC191E</tstamp>
     </comp>
-    <comp ref="U6">
+    <comp ref="U3">
       <value>TL1963A-33DCQR</value>
       <footprint>arduinouno:DCQ_R-PDSO-G6</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl1963a.pdf</datasheet>
@@ -778,7 +778,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BD8A3CF</tstamp>
     </comp>
-    <comp ref="C28">
+    <comp ref="C13">
       <value>10uF|16V</value>
       <footprint>arduinouno:C0805x145mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -789,7 +789,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BE02C9B</tstamp>
     </comp>
-    <comp ref="C27">
+    <comp ref="C12">
       <value>10uF|16V</value>
       <footprint>arduinouno:C0805x145mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -800,7 +800,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BE1BC34</tstamp>
     </comp>
-    <comp ref="R17">
+    <comp ref="R27">
       <value>0R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -811,18 +811,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BECFAAE</tstamp>
     </comp>
-    <comp ref="U4">
-      <value>ATMEGA16U2-AU</value>
-      <footprint>arduinouno:QFP-32_8.4x8.4_Pitch0.8mm</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</datasheet>
-      <fields>
-        <field name="Digikey">ATMEGA16U2-AU-ND</field>
-      </fields>
-      <libsource lib="arduinouno" part="ATMEGA16U2-AU" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B904F48</tstamp>
-    </comp>
-    <comp ref="R18">
+    <comp ref="R1">
       <value>100K</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -833,7 +822,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C13A251</tstamp>
     </comp>
-    <comp ref="C29">
+    <comp ref="C7">
       <value>1uF|25V</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -844,7 +833,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4CBD49</tstamp>
     </comp>
-    <comp ref="U7">
+    <comp ref="J7">
       <value>10118193-0001LF</value>
       <footprint>arduinouno:10118193</footprint>
       <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf</datasheet>
@@ -855,7 +844,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA536DA</tstamp>
     </comp>
-    <comp ref="R22">
+    <comp ref="R6">
       <value>22R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -866,7 +855,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA53956</tstamp>
     </comp>
-    <comp ref="R23">
+    <comp ref="R7">
       <value>22R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -877,7 +866,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA8319C</tstamp>
     </comp>
-    <comp ref="R21">
+    <comp ref="R8">
       <value>0R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -910,7 +899,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BAC105B</tstamp>
     </comp>
-    <comp ref="C30">
+    <comp ref="C1">
       <value>100u|10V</value>
       <footprint>arduinouno:C_ALUM_C_SIZE</footprint>
       <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf</datasheet>
@@ -921,7 +910,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BBC2A5D</tstamp>
     </comp>
-    <comp ref="C31">
+    <comp ref="C2">
       <value>100uF|10V</value>
       <footprint>arduinouno:C_ALUM_C_SIZE</footprint>
       <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf</datasheet>
@@ -954,7 +943,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCEC79F</tstamp>
     </comp>
-    <comp ref="R24">
+    <comp ref="R21">
       <value>10k</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -965,7 +954,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCEC7B4</tstamp>
     </comp>
-    <comp ref="C32">
+    <comp ref="C33">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -976,7 +965,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCEC7D9</tstamp>
     </comp>
-    <comp ref="U8">
+    <comp ref="U7">
       <value>SN74AHC1G09DBVR</value>
       <footprint>arduinouno:DBV_SOT23_5</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn74ahc1g09.pdf</datasheet>
@@ -987,7 +976,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCEC803</tstamp>
     </comp>
-    <comp ref="C33">
+    <comp ref="C29">
       <value>100nF</value>
       <footprint>arduinouno:C0805x95mm</footprint>
       <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
@@ -1009,7 +998,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BCEC7C2</tstamp>
     </comp>
-    <comp ref="R26">
+    <comp ref="R22">
       <value>560R</value>
       <footprint>arduinouno:R0805x60mm</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
@@ -1020,14 +1009,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BDCC627</tstamp>
     </comp>
-    <comp ref="J2">
+    <comp ref="J8">
       <value>PAD_WITH_HOLE_4mmx1.5mm</value>
       <footprint>arduinouno:PAD_WITH_HOLE_4mmx1.5mm</footprint>
       <libsource lib="arduinouno" part="PAD_WITH_HOLE_4mmx1.5mm" description="Pad with a hole 4mmx1.5mm"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BE3F4BF</tstamp>
     </comp>
-    <comp ref="J8">
+    <comp ref="J9">
       <value>PAD_WITH_HOLE_4mmx1.5mm</value>
       <footprint>arduinouno:PAD_WITH_HOLE_4mmx1.5mm</footprint>
       <libsource lib="arduinouno" part="PAD_WITH_HOLE_4mmx1.5mm" description="Pad with a hole 4mmx1.5mm"/>
@@ -1090,8 +1079,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF98074</tstamp>
     </comp>
-    <comp ref="SCKT1">
-      <value>4828-3004-CP</value>
+    <comp ref="SCKT_FOR_U1">
+      <value>28-DIP Socket</value>
       <footprint>arduinouno:28DIP_7.62MM_SCKT</footprint>
       <datasheet>http://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf</datasheet>
       <fields>
@@ -1121,6 +1110,60 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C316418</tstamp>
     </comp>
+    <comp ref="JP2">
+      <value>68602-104HLF</value>
+      <footprint>arduinouno:HDR_2x2_2.54mm</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</datasheet>
+      <fields>
+        <field name="Digikey">609-3361-ND</field>
+      </fields>
+      <libsource lib="arduinouno" part="68602-104HLF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F6D1E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ATMEGA16U2-AU</value>
+      <footprint>arduinouno:QFP-32_8.4x8.4_Pitch0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</datasheet>
+      <fields>
+        <field name="Digikey">ATMEGA16U2-AU-ND</field>
+      </fields>
+      <libsource lib="arduinouno" part="ATMEGA16U2-AU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B904F48</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>68000-103HLF</value>
+      <footprint>arduinouno:3P_Header_2.54mm</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf</datasheet>
+      <fields>
+        <field name="Digikey">609-3461-ND</field>
+      </fields>
+      <libsource lib="arduinouno" part="68000-103HLF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDCF835</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>0R</value>
+      <footprint>arduinouno:R0805x60mm</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Digikey">311-0.0ARCT-ND</field>
+      </fields>
+      <libsource lib="arduinouno" part="RC0805JR-070RL" description="RES SMD 0 OHM JUMPER 1/8W 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE4B7F6</tstamp>
+    </comp>
+    <comp ref="LINK3">
+      <value>QPC02SXGN-RC</value>
+      <datasheet>https://drawings-pdf.s3.amazonaws.com/11510.pdf</datasheet>
+      <fields>
+        <field name="Digikey">S9337-ND</field>
+      </fields>
+      <libsource lib="arduinouno" part="QPC02SXGN-RC" description="CONN JUMPER SHORTING .100&quot; GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEF5F1A</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="arduinouno" part="10118193-0001LF">
@@ -1133,11 +1176,11 @@
         <field name="Digikey">609-4616-1-ND</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="BiDi"/>
+        <pin num="1" name="1" type="power_out"/>
         <pin num="2" name="2" type="BiDi"/>
         <pin num="3" name="3" type="BiDi"/>
         <pin num="4" name="4" type="BiDi"/>
-        <pin num="5" name="5" type="BiDi"/>
+        <pin num="5" name="5" type="power_in"/>
         <pin num="6" name="6" type="power_in"/>
         <pin num="7" name="7" type="power_in"/>
         <pin num="8" name="8" type="power_in"/>
@@ -1209,6 +1252,21 @@
         <field name="Footprint">arduinouno:4P_Header_2.54mm</field>
         <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf</field>
         <field name="Digikey">609-3402-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduinouno" part="68602-104HLF">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">68602-104HLF</field>
+        <field name="Footprint">arduinouno:HDR_2x2_2.54mm</field>
+        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</field>
+        <field name="Digikey">609-3361-ND</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1699,476 +1757,485 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+AREF">
-      <node ref="C22" pin="1"/>
-      <node ref="U3" pin="21"/>
-      <node ref="C20" pin="1"/>
-      <node ref="J5" pin="8"/>
-    </net>
-    <net code="2" name="Net-(J1-Pad1)">
+    <net code="1" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1"/>
     </net>
-    <net code="3" name="+5V_3V3">
-      <node ref="R24" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="J4" pin="2"/>
-      <node ref="C25" pin="1"/>
-      <node ref="R17" pin="2"/>
+    <net code="2" name="+5V_3V3">
+      <node ref="J5" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="J6" pin="2"/>
       <node ref="C8" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="U5" pin="5"/>
-      <node ref="R15" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="R21" pin="1"/>
       <node ref="R20" pin="1"/>
-      <node ref="R19" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="FB2" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="FB3" pin="1"/>
-      <node ref="D1" pin="1"/>
+      <node ref="D6" pin="1"/>
       <node ref="R1" pin="1"/>
-      <node ref="FB1" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="U2" pin="5"/>
-      <node ref="R5" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="U8" pin="5"/>
-      <node ref="C33" pin="1"/>
-    </net>
-    <net code="4" name="+3V3">
-      <node ref="U6" pin="4"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C15" pin="1"/>
       <node ref="U6" pin="5"/>
-      <node ref="J1" pin="4"/>
       <node ref="C28" pin="1"/>
-      <node ref="C7" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R17" pin="1"/>
+      <node ref="FB3" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U5" pin="5"/>
     </net>
-    <net code="5" name="Net-(J1-Pad8)">
+    <net code="3" name="+3V3">
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R28" pin="2"/>
+      <node ref="JP4" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad8)">
       <node ref="J1" pin="8"/>
     </net>
-    <net code="7" name="+5V">
-      <node ref="C27" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="C4" pin="1"/>
+    <net code="6" name="+5V">
+      <node ref="R27" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C12" pin="1"/>
       <node ref="J1" pin="5"/>
-      <node ref="U6" pin="2"/>
-      <node ref="U6" pin="1"/>
-      <node ref="R17" pin="1"/>
-      <node ref="U4" pin="31"/>
-      <node ref="C31" pin="1"/>
+      <node ref="C2" pin="1"/>
       <node ref="L1" pin="2"/>
-      <node ref="C21" pin="1"/>
-    </net>
-    <net code="8" name="GND">
-      <node ref="C15" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="MH3" pin="1"/>
-      <node ref="MH2" pin="1"/>
-      <node ref="MH1" pin="1"/>
-      <node ref="R14" pin="1"/>
-      <node ref="U4" pin="28"/>
-      <node ref="U4" pin="3"/>
       <node ref="J8" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="31"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C19" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="22"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C26" pin="2"/>
+      <node ref="J7" pin="10"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J7" pin="11"/>
+      <node ref="C20" pin="2"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J7" pin="6"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J7" pin="8"/>
+      <node ref="J7" pin="9"/>
       <node ref="C17" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R8" pin="2"/>
       <node ref="C21" pin="2"/>
-      <node ref="C29" pin="1"/>
-      <node ref="J5" pin="7"/>
-      <node ref="C33" pin="2"/>
-      <node ref="U3" pin="22"/>
-      <node ref="U8" pin="3"/>
       <node ref="Z1" pin="1"/>
       <node ref="Z2" pin="1"/>
-      <node ref="J4" pin="6"/>
-      <node ref="C27" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="U3" pin="8"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="U6" pin="6"/>
-      <node ref="C20" pin="2"/>
-      <node ref="U6" pin="3"/>
-      <node ref="C26" pin="2"/>
-      <node ref="U7" pin="10"/>
-      <node ref="U7" pin="11"/>
-      <node ref="U7" pin="5"/>
-      <node ref="U7" pin="6"/>
-      <node ref="U5" pin="3"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="J1" pin="7"/>
-      <node ref="J1" pin="6"/>
-      <node ref="U7" pin="7"/>
-      <node ref="U7" pin="8"/>
-      <node ref="U7" pin="9"/>
-      <node ref="D3" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="C19" pin="2"/>
       <node ref="C1" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="J3" pin="6"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="SW2" pin="4"/>
+      <node ref="C2" pin="2"/>
       <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="28"/>
+      <node ref="J6" pin="6"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C29" pin="2"/>
       <node ref="SW1" pin="3"/>
       <node ref="SW1" pin="4"/>
-      <node ref="R21" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C2" pin="2"/>
-    </net>
-    <net code="9" name="/328P_RESETn">
-      <node ref="U3" pin="1"/>
-      <node ref="JP2" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="J4" pin="5"/>
-    </net>
-    <net code="10" name="/IO0">
-      <node ref="U3" pin="2"/>
-      <node ref="J7" pin="1"/>
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="11" name="/IO1">
-      <node ref="U3" pin="3"/>
-      <node ref="J7" pin="2"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="12" name="/IO2">
-      <node ref="J7" pin="3"/>
-      <node ref="U3" pin="4"/>
-    </net>
-    <net code="13" name="/IO3">
-      <node ref="U3" pin="5"/>
-      <node ref="J7" pin="4"/>
-    </net>
-    <net code="14" name="/IO4">
-      <node ref="J7" pin="5"/>
-      <node ref="U3" pin="6"/>
-    </net>
-    <net code="15" name="/IO5">
-      <node ref="U3" pin="11"/>
-      <node ref="J7" pin="6"/>
-    </net>
-    <net code="16" name="/IO6">
-      <node ref="U3" pin="12"/>
-      <node ref="J7" pin="7"/>
-    </net>
-    <net code="17" name="/IO7">
-      <node ref="U3" pin="13"/>
-      <node ref="J7" pin="8"/>
-    </net>
-    <net code="18" name="/AD0">
-      <node ref="U3" pin="23"/>
-      <node ref="J6" pin="1"/>
-    </net>
-    <net code="19" name="/AD1">
-      <node ref="U3" pin="24"/>
-      <node ref="J6" pin="2"/>
-    </net>
-    <net code="20" name="/AD2">
-      <node ref="U3" pin="25"/>
-      <node ref="J6" pin="3"/>
-    </net>
-    <net code="21" name="/AD3">
-      <node ref="U3" pin="26"/>
-      <node ref="J6" pin="4"/>
-    </net>
-    <net code="22" name="/IO8">
-      <node ref="J5" pin="1"/>
-      <node ref="U3" pin="14"/>
-      <node ref="R26" pin="2"/>
-    </net>
-    <net code="23" name="/IO9">
-      <node ref="J5" pin="2"/>
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="24" name="/SS">
-      <node ref="J5" pin="3"/>
-      <node ref="U3" pin="16"/>
-    </net>
-    <net code="25" name="/MOSI">
-      <node ref="J4" pin="4"/>
-      <node ref="U3" pin="17"/>
-      <node ref="J5" pin="4"/>
-    </net>
-    <net code="26" name="/AD5_SCL">
-      <node ref="J6" pin="6"/>
-      <node ref="U3" pin="28"/>
-      <node ref="J5" pin="10"/>
-    </net>
-    <net code="27" name="/AD4_SDA">
-      <node ref="J6" pin="5"/>
-      <node ref="U3" pin="27"/>
-      <node ref="J5" pin="9"/>
-    </net>
-    <net code="28" name="/MISO">
-      <node ref="U3" pin="18"/>
-      <node ref="J5" pin="5"/>
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="29" name="/SCK_R">
-      <node ref="U3" pin="19"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="30" name="/SCK">
-      <node ref="J4" pin="3"/>
-      <node ref="U5" pin="1"/>
-      <node ref="U5" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="J5" pin="6"/>
-    </net>
-    <net code="31" name="/16U2_RXD">
-      <node ref="U4" pin="8"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="32" name="/16U2_TXD">
-      <node ref="U4" pin="9"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J9" pin="1"/>
       <node ref="R12" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="MH2" pin="1"/>
+      <node ref="MH3" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="J1" pin="6"/>
     </net>
-    <net code="33" name="/BUTTON_RESETn">
-      <node ref="R4" pin="1"/>
-      <node ref="D2" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW1" pin="1"/>
-    </net>
-    <net code="34" name="/328P_BUF_RESETn">
-      <node ref="R4" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="35" name="/328P_AUTORESETn">
-      <node ref="C24" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="36" name="/16U2PROG_328P_RESETn">
-      <node ref="U4" pin="13"/>
-      <node ref="R18" pin="2"/>
-      <node ref="JP1" pin="2"/>
-    </net>
-    <net code="37" name="Net-(JP1-Pad3)">
-      <node ref="JP1" pin="3"/>
-      <node ref="R14" pin="2"/>
-    </net>
-    <net code="38" name="Net-(C24-Pad2)">
-      <node ref="JP1" pin="1"/>
-      <node ref="C24" pin="2"/>
-    </net>
-    <net code="39" name="Net-(D1-Pad2)">
-      <node ref="R1" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="40" name="/16U2_BUF_RESETn">
-      <node ref="R2" pin="2"/>
-      <node ref="C1" pin="1"/>
+    <net code="8" name="/328P_RESETn">
+      <node ref="U6" pin="4"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J1" pin="3"/>
       <node ref="U1" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="9" name="/IO0">
       <node ref="U1" pin="2"/>
-    </net>
-    <net code="41" name="/16U2_RESETn">
-      <node ref="U1" pin="4"/>
-      <node ref="R7" pin="2"/>
-      <node ref="JP2" pin="4"/>
-      <node ref="U4" pin="24"/>
-    </net>
-    <net code="42" name="/16U2_SCLK">
-      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="1"/>
       <node ref="R10" pin="2"/>
     </net>
-    <net code="43" name="/16U2_HDR_RESETn">
-      <node ref="JP2" pin="3"/>
+    <net code="10" name="/IO1">
+      <node ref="R11" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="11" name="/IO2">
+      <node ref="U1" pin="4"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="12" name="/IO3">
+      <node ref="U1" pin="5"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="13" name="/IO4">
+      <node ref="U1" pin="6"/>
       <node ref="J3" pin="5"/>
     </net>
-    <net code="44" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2"/>
-      <node ref="R19" pin="2"/>
+    <net code="14" name="/IO5">
+      <node ref="U1" pin="11"/>
+      <node ref="J3" pin="6"/>
     </net>
-    <net code="45" name="Net-(D6-Pad2)">
-      <node ref="R20" pin="2"/>
-      <node ref="D6" pin="2"/>
+    <net code="15" name="/IO6">
+      <node ref="U1" pin="12"/>
+      <node ref="J3" pin="7"/>
     </net>
-    <net code="46" name="Net-(D3-Pad2)">
-      <node ref="R15" pin="2"/>
-      <node ref="D3" pin="2"/>
+    <net code="16" name="/IO7">
+      <node ref="J3" pin="8"/>
+      <node ref="U1" pin="13"/>
     </net>
-    <net code="47" name="Net-(D4-Pad1)">
-      <node ref="U5" pin="4"/>
-      <node ref="D4" pin="1"/>
+    <net code="17" name="/AD0">
+      <node ref="U1" pin="23"/>
+      <node ref="J2" pin="1"/>
     </net>
-    <net code="48" name="Net-(D4-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="D4" pin="2"/>
+    <net code="18" name="/AD1">
+      <node ref="U1" pin="24"/>
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="49" name="/16U2_MISO">
-      <node ref="U4" pin="17"/>
-      <node ref="J3" pin="1"/>
+    <net code="19" name="/AD2">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="25"/>
     </net>
-    <net code="50" name="Net-(U4-Pad12)">
-      <node ref="U4" pin="12"/>
+    <net code="20" name="/AD3">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="26"/>
     </net>
-    <net code="51" name="Net-(U4-Pad14)">
-      <node ref="U4" pin="14"/>
+    <net code="21" name="/IO8">
+      <node ref="U1" pin="14"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R22" pin="2"/>
     </net>
-    <net code="52" name="/16U2_SCLK_R">
-      <node ref="R10" pin="1"/>
-      <node ref="U4" pin="15"/>
+    <net code="22" name="/IO9">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="53" name="/16U2_MOSI">
-      <node ref="J3" pin="4"/>
-      <node ref="U4" pin="16"/>
+    <net code="23" name="/SS">
+      <node ref="U1" pin="16"/>
+      <node ref="J4" pin="3"/>
     </net>
-    <net code="54" name="Net-(U4-Pad19)">
-      <node ref="U4" pin="19"/>
+    <net code="24" name="/MOSI">
+      <node ref="J4" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="55" name="Net-(U4-Pad20)">
-      <node ref="U4" pin="20"/>
+    <net code="25" name="/AD5_SCL">
+      <node ref="U1" pin="28"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J4" pin="10"/>
     </net>
-    <net code="56" name="Net-(U4-Pad21)">
-      <node ref="U4" pin="21"/>
+    <net code="26" name="/AD4_SDA">
+      <node ref="J2" pin="5"/>
+      <node ref="J4" pin="9"/>
+      <node ref="U1" pin="27"/>
     </net>
-    <net code="57" name="Net-(U4-Pad22)">
-      <node ref="U4" pin="22"/>
+    <net code="27" name="+AREF">
+      <node ref="J4" pin="8"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="58" name="Net-(U4-Pad23)">
-      <node ref="U4" pin="23"/>
+    <net code="28" name="/MISO">
+      <node ref="J4" pin="5"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="18"/>
     </net>
-    <net code="59" name="Net-(U4-Pad25)">
-      <node ref="U4" pin="25"/>
+    <net code="29" name="/SCK_R">
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="19"/>
     </net>
-    <net code="60" name="Net-(U4-Pad26)">
-      <node ref="U4" pin="26"/>
-    </net>
-    <net code="61" name="Net-(U4-Pad5)">
-      <node ref="U4" pin="5"/>
-    </net>
-    <net code="62" name="Net-(U4-Pad6)">
-      <node ref="U4" pin="6"/>
-    </net>
-    <net code="63" name="Net-(U4-Pad7)">
-      <node ref="U4" pin="7"/>
-    </net>
-    <net code="64" name="/16U2_PB4">
-      <node ref="JP2" pin="2"/>
-      <node ref="U4" pin="18"/>
-    </net>
-    <net code="65" name="/16U2_RX_LED">
-      <node ref="D6" pin="1"/>
-      <node ref="U4" pin="10"/>
-    </net>
-    <net code="66" name="/16U2_TX_LED">
-      <node ref="D5" pin="1"/>
-      <node ref="U4" pin="11"/>
-    </net>
-    <net code="67" name="/+3V3_16U2_UCAP">
-      <node ref="U4" pin="27"/>
-      <node ref="C29" pin="2"/>
-    </net>
-    <net code="68" name="/+5_3V3_16U2">
-      <node ref="U4" pin="32"/>
-      <node ref="U4" pin="4"/>
-      <node ref="FB1" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C17" pin="1"/>
-    </net>
-    <net code="69" name="/+5_3V3_328P_VCC">
-      <node ref="C18" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="FB2" pin="2"/>
-      <node ref="U3" pin="7"/>
-    </net>
-    <net code="70" name="/+5_3V3_328P_AVCC">
-      <node ref="FB3" pin="2"/>
-      <node ref="U3" pin="20"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C19" pin="1"/>
-    </net>
-    <net code="71" name="/328P_16MHZ_XTAL1">
-      <node ref="U3" pin="10"/>
-      <node ref="R8" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="Y1" pin="2"/>
-    </net>
-    <net code="72" name="/328P_16MHZ_XTAL2">
-      <node ref="U3" pin="9"/>
-      <node ref="Y1" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="73" name="/16U2_16MHZ_XTAL2">
+    <net code="30" name="/SCK">
+      <node ref="J5" pin="3"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J4" pin="6"/>
       <node ref="U4" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="C15" pin="2"/>
-      <node ref="Y2" pin="1"/>
-    </net>
-    <net code="74" name="/16U2_16MHZ_XTAL1">
-      <node ref="R9" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="Y2" pin="2"/>
       <node ref="U4" pin="1"/>
     </net>
-    <net code="75" name="/+5V_USB">
-      <node ref="U7" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="C30" pin="1"/>
+    <net code="31" name="/16U2_RXD">
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="8"/>
     </net>
-    <net code="76" name="Net-(R21-Pad1)">
-      <node ref="R21" pin="1"/>
-      <node ref="U7" pin="4"/>
+    <net code="32" name="/16U2_TXD">
+      <node ref="U2" pin="9"/>
+      <node ref="R10" pin="1"/>
     </net>
-    <net code="77" name="/CON_USB_N">
-      <node ref="Z1" pin="2"/>
-      <node ref="U7" pin="2"/>
-      <node ref="R22" pin="1"/>
+    <net code="33" name="/BUTTON_RESETn">
+      <node ref="R20" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R24" pin="1"/>
     </net>
-    <net code="78" name="/CON_USB_P">
-      <node ref="U7" pin="3"/>
-      <node ref="Z2" pin="2"/>
+    <net code="34" name="/328P_BUF_RESETn">
+      <node ref="C32" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="35" name="/328P_AUTORESETn">
+      <node ref="R18" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="36" name="/16U2PROG_328P_RESETn">
+      <node ref="R1" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="37" name="Net-(JP1-Pad3)">
+      <node ref="R12" pin="2"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="39" name="Net-(D5-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="D5" pin="2"/>
       <node ref="R23" pin="1"/>
     </net>
-    <net code="79" name="/USB_N">
-      <node ref="R22" pin="2"/>
-      <node ref="U4" pin="30"/>
-    </net>
-    <net code="80" name="/USB_P">
-      <node ref="U4" pin="29"/>
+    <net code="40" name="/16U2_BUF_RESETn">
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="1"/>
       <node ref="R23" pin="2"/>
+      <node ref="C31" pin="1"/>
     </net>
-    <net code="81" name="/USER_BUTTON">
-      <node ref="R24" pin="2"/>
-      <node ref="R25" pin="1"/>
-      <node ref="SW2" pin="2"/>
+    <net code="41" name="/16U2_RESETn">
+      <node ref="JP3" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U2" pin="24"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="42" name="/16U2_SCLK">
+      <node ref="R5" pin="2"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="43" name="/16U2_HDR_RESETn">
+      <node ref="J6" pin="5"/>
+      <node ref="JP3" pin="3"/>
+    </net>
+    <net code="44" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D2-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="49" name="/16U2_SCLK_R">
+      <node ref="U2" pin="15"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="50" name="/16U2_MOSI">
+      <node ref="U2" pin="16"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="51" name="/16U2_MISO">
+      <node ref="U2" pin="17"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="52" name="/16U2_PB4">
+      <node ref="JP3" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="53" name="/16U2_RX_LED">
+      <node ref="D4" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="54" name="/16U2_TX_LED">
+      <node ref="D3" pin="1"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="58" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="64" name="/+3V3_16U2_UCAP">
+      <node ref="U2" pin="27"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="65" name="/+5_3V3_328P_VCC">
+      <node ref="C20" pin="1"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="66" name="/+5_3V3_328P_AVCC">
+      <node ref="FB3" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="67" name="/328P_16MHZ_XTAL1">
+      <node ref="R16" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="68" name="/328P_16MHZ_XTAL2">
+      <node ref="Y1" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="69" name="/16U2_16MHZ_XTAL2">
+      <node ref="Y2" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="70" name="/16U2_16MHZ_XTAL1">
+      <node ref="Y2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="71" name="/+5V_USB">
+      <node ref="J7" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="72" name="Net-(J7-Pad4)">
+      <node ref="R8" pin="1"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="73" name="/CON_USB_N">
+      <node ref="Z1" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="74" name="/CON_USB_P">
+      <node ref="J7" pin="3"/>
+      <node ref="R7" pin="1"/>
+      <node ref="Z2" pin="2"/>
+    </net>
+    <net code="75" name="/USER_BUTTON">
       <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R21" pin="2"/>
     </net>
-    <net code="82" name="/USER_BUTTON_BUF">
-      <node ref="U8" pin="2"/>
-      <node ref="U8" pin="1"/>
+    <net code="76" name="/USER_BUTTON_BUF">
+      <node ref="U7" pin="1"/>
+      <node ref="C33" pin="1"/>
       <node ref="R25" pin="2"/>
-      <node ref="C32" pin="1"/>
+      <node ref="U7" pin="2"/>
     </net>
-    <net code="83" name="Net-(R26-Pad1)">
-      <node ref="U8" pin="4"/>
-      <node ref="R26" pin="1"/>
+    <net code="77" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="78" name="/+5_3V3_16U2">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="32"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="79" name="/USB_P">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="80" name="/USB_N">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="81" name="/16U2_PB5">
+      <node ref="JP2" pin="3"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="82" name="/16U2_PB6">
+      <node ref="JP2" pin="2"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="83" name="/16U2_PB7">
+      <node ref="JP2" pin="4"/>
+      <node ref="U2" pin="21"/>
     </net>
   </nets>
 </export>

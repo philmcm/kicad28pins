@@ -1,17 +1,17 @@
-(module 28DIP_7.62MM_SCKT (layer F.Cu) (tedit 5B9CBFB5)
-  (fp_text reference REF** (at 0 7.5) (layer F.SilkS) hide
+(module 28DIP_7.62MM_SCKT (layer F.Cu) (tedit 5B9FA3AA)
+  (fp_text reference REF** (at 16.51 3.69) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value 28DIP_7.62MM_SCKT (at 0 -7.5) (layer F.Fab) hide
+  (fp_text value 28DIP_7.62MM_SCKT (at 16.51 -11.31) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start -17.715 -5.08) (end 17.715 -5.08) (layer F.CrtYd) (width 0.15))
-  (fp_line (start 17.715 -5.08) (end 17.715 5.08) (layer F.CrtYd) (width 0.15))
-  (fp_line (start 17.715 5.08) (end -17.715 5.08) (layer F.CrtYd) (width 0.15))
-  (fp_line (start -17.715 5.08) (end -17.715 -5.08) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -1.205 -8.89) (end 34.225 -8.89) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 34.225 -8.89) (end 34.225 1.27) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 34.225 1.27) (end -1.205 1.27) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -1.205 1.27) (end -1.205 -8.89) (layer F.CrtYd) (width 0.15))
   (model ${KIPRJMOD}/packages3d/dil_socket.stp
-    (at (xyz 0 0 0))
+    (offset (xyz 16.41 3.81 1.4))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
+    (rotate (xyz -90 0 -90))
   )
 )

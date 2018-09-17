@@ -1,4 +1,4 @@
-(module 28PIN_PDIP_7.62mm (layer F.Cu) (tedit 5B953AEB)
+(module 28PIN_PDIP_7.62mm (layer F.Cu) (tedit 5B9FA46E)
   (fp_text reference REF** (at 0.71 -9.91) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -48,7 +48,7 @@
   (pad 27 thru_hole oval (at 2.54 -7.62) (size 1.6 2) (drill 1.1) (layers *.Cu *.Mask))
   (pad 28 thru_hole oval (at 0 -7.62) (size 1.6 2) (drill 1.1) (layers *.Cu *.Mask))
   (model "${KIPRJMOD}/packages3d/ATmega 48_88_168_328 28P3_90DEG.step"
-    (offset (xyz 16.51 3.81 3))
+    (offset (xyz 16.51 3.81 5.9))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )

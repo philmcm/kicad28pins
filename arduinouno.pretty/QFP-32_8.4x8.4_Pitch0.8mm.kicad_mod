@@ -1,8 +1,8 @@
-(module QFP-32_8.4x8.4_Pitch0.8mm (layer F.Cu) (tedit 5B9A68B6)
+(module QFP-32_8.4x8.4_Pitch0.8mm (layer F.Cu) (tedit 5BA24F0A)
   (solder_mask_margin 0.05)
   (attr smd)
   (fp_text reference REF** (at 0 -5.95) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
   )
   (fp_text value QFP-32_8.4x8.4_Pitch0.8mm (at 0 5.95) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))

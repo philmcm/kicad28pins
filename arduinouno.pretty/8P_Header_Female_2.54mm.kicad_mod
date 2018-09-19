@@ -1,6 +1,6 @@
-(module 8P_Header_Female_2.54mm (layer F.Cu) (tedit 5B98CD2B)
+(module 8P_Header_Female_2.54mm (layer F.Cu) (tedit 5BA24FBB)
   (fp_text reference REF** (at 0 -2.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
   )
   (fp_text value 8P_Header_Female_2.54mm (at 0 20.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -17,7 +17,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user 1 (at -2 0) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
   )
   (fp_circle (center -0.508 -0.762) (end -0.254 -0.508) (layer F.Fab) (width 0.15))
   (pad 8 thru_hole oval (at 0 17.78) (size 2 1.6) (drill 1.1) (layers *.Cu *.Mask))

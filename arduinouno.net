@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/phil/Documents/Kicad/arduinouno/arduinouno.sch)
-    (date "Sunday, 16 September 2018 at 10:30:34 pm")
+    (date "Sunday, 23 September 2018 at 08:27:48 pm")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

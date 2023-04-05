@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name arduinouno)(type Legacy)(uri ${KIPRJMOD}/library/arduinouno.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "arduinouno")(type "KiCad")(uri "${KIPRJMOD}/library/arduinouno.kicad_sym")(options "")(descr ""))
 )
